@@ -1,0 +1,474 @@
+{
+  "model": "qwen3.5-27b",
+  "hf_id": "Qwen/Qwen3.5-27B",
+  "n_layers": 64,
+  "d_model": 5120,
+  "generated": {
+    "log_time_horizon": {
+      "0": {
+        "r2_train": 0.1961,
+        "r2_cv": 0.0693,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 0.7950999736785889
+      },
+      "2": {
+        "r2_train": 0.2201,
+        "r2_cv": 0.1048,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 0.8001999855041504
+      },
+      "4": {
+        "r2_train": 0.0279,
+        "r2_cv": 0.0045,
+        "alpha": 112.8838,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "6": {
+        "r2_train": 0.0279,
+        "r2_cv": 0.0067,
+        "alpha": 0.6952,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "8": {
+        "r2_train": 0.0242,
+        "r2_cv": 0.0076,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "10": {
+        "r2_train": 0.0242,
+        "r2_cv": 0.0059,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "12": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.0128,
+        "alpha": 0.0379,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "14": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.0146,
+        "alpha": 0.0379,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "16": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "18": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "20": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "22": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "24": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 54.5559,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "26": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 54.5559,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "28": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "30": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "32": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "34": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 54.5559,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "36": {
+        "r2_train": 0.0004,
+        "r2_cv": -0.0141,
+        "alpha": 54.5559,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "38": {
+        "r2_train": 0.0049,
+        "r2_cv": -0.0136,
+        "alpha": 0.0785,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "40": {
+        "r2_train": 0.0,
+        "r2_cv": -0.0142,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": NaN
+      },
+      "42": {
+        "r2_train": 0.0142,
+        "r2_cv": -0.0147,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "44": {
+        "r2_train": 0.0129,
+        "r2_cv": -0.0138,
+        "alpha": 12.7427,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "46": {
+        "r2_train": 0.0204,
+        "r2_cv": -0.0064,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "48": {
+        "r2_train": 0.0102,
+        "r2_cv": -0.0146,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "50": {
+        "r2_train": 0.0658,
+        "r2_cv": -0.0339,
+        "alpha": 112.8838,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "52": {
+        "r2_train": 0.021,
+        "r2_cv": -0.0031,
+        "alpha": 0.0785,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "54": {
+        "r2_train": 0.0957,
+        "r2_cv": -0.0195,
+        "alpha": 54.5559,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "56": {
+        "r2_train": 0.0381,
+        "r2_cv": -0.0183,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "58": {
+        "r2_train": 0.0439,
+        "r2_cv": -0.015,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "60": {
+        "r2_train": 0.0388,
+        "r2_cv": -0.0177,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "62": {
+        "r2_train": 0.0462,
+        "r2_cv": -0.0132,
+        "alpha": 1.4384,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "64": {
+        "r2_train": 0.0277,
+        "r2_cv": -0.2199,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      }
+    },
+    "planning_depth": {
+      "0": {
+        "r2_train": 0.193,
+        "r2_cv": 0.0461,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 0.7950999736785889
+      },
+      "2": {
+        "r2_train": 0.221,
+        "r2_cv": 0.0642,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 0.8001999855041504
+      },
+      "4": {
+        "r2_train": 0.0189,
+        "r2_cv": -0.0228,
+        "alpha": 0.1624,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "6": {
+        "r2_train": 0.0189,
+        "r2_cv": -0.0221,
+        "alpha": 0.6952,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "8": {
+        "r2_train": 0.0173,
+        "r2_cv": -0.0076,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "10": {
+        "r2_train": 0.0173,
+        "r2_cv": -0.0102,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "12": {
+        "r2_train": 0.006,
+        "r2_cv": -0.0144,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "14": {
+        "r2_train": 0.006,
+        "r2_cv": -0.0124,
+        "alpha": 0.1624,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "16": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.0183,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "18": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "20": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "22": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.0183,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "24": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 26.3665,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "26": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "28": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.0183,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "30": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "32": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "34": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.6952,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "36": {
+        "r2_train": 0.0035,
+        "r2_cv": -0.014,
+        "alpha": 0.6952,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "38": {
+        "r2_train": 0.0061,
+        "r2_cv": -0.0141,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "40": {
+        "r2_train": -0.0,
+        "r2_cv": -0.0141,
+        "alpha": 0.001,
+        "pca_dims": 20,
+        "pca_var": NaN
+      },
+      "42": {
+        "r2_train": 0.0223,
+        "r2_cv": -0.0142,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "44": {
+        "r2_train": 0.0111,
+        "r2_cv": -0.0267,
+        "alpha": 12.7427,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "46": {
+        "r2_train": 0.0053,
+        "r2_cv": -0.0145,
+        "alpha": 0.336,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "48": {
+        "r2_train": 0.0109,
+        "r2_cv": -0.0142,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "50": {
+        "r2_train": 0.032,
+        "r2_cv": -0.0164,
+        "alpha": 0.6952,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "52": {
+        "r2_train": 0.0134,
+        "r2_cv": -0.0165,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "54": {
+        "r2_train": 0.0537,
+        "r2_cv": -0.0023,
+        "alpha": 0.0379,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "56": {
+        "r2_train": 0.055,
+        "r2_cv": -0.0179,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "58": {
+        "r2_train": 0.0455,
+        "r2_cv": -0.0134,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "60": {
+        "r2_train": 0.0399,
+        "r2_cv": -0.0348,
+        "alpha": 483.293,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "62": {
+        "r2_train": 0.0237,
+        "r2_cv": -0.0202,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      },
+      "64": {
+        "r2_train": 0.0239,
+        "r2_cv": -0.1222,
+        "alpha": 1000.0,
+        "pca_dims": 20,
+        "pca_var": 1.0
+      }
+    }
+  }
+}

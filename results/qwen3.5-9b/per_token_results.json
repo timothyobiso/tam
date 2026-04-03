@@ -1,0 +1,93 @@
+[
+  {
+    "label": "saturday_service",
+    "prompt": "Write a detailed hour-by-hour schedule for a restaurant kitchen on a busy Saturday night, from 3pm prep to midnight cleanup.",
+    "expected": "advancing_time",
+    "n_tokens": 250,
+    "generated_text": "\n\nHere is a detailed hour-by-hour schedule for a restaurant kitchen on a busy Saturday night. This schedule assumes a standard dinner service (5:00 PM \u2013 10:00 PM) with a high volume of orders.\n\n### **The Saturday Night Grind**\n\n#### **Phase 1: The Warm-Up (3:00 PM \u2013 4:30 PM)**\n*Goal: Finalize mise en place, prep garnishes, and bring stations to temperature.*\n\n*   **3:00 PM \u2013 3:30 PM: Final Mise en Place**\n    *   **Line Cooks:** Finish chopping vegetables for the evening specials. Portion sauces",
+    "probe_mean": 4.863909446716309,
+    "probe_std": 1.9247286686415805,
+    "probe_min": -0.05291891098022461,
+    "probe_max": 10.19448471069336,
+    "curvature_mean": -0.36757669769858403,
+    "curvature_std": 0.16504117863572976
+  },
+  {
+    "label": "tasting_menu",
+    "prompt": "Plan a 5-course tasting menu dinner service. For each course, describe the timing, preparation, and plating.",
+    "expected": "advancing_steps",
+    "n_tokens": 250,
+    "generated_text": "\n\nHere is a plan for a 5-course tasting menu titled **\"The Alchemist's Garden.\"** This menu focuses on seasonal ingredients, utilizing a mix of hot, cold, and textural elements to create a narrative arc from earth to sky.\n\n### **Service Overview**\n*   **Total Duration:** Approx. 2 hours 15 minutes (including 15-minute intervals between courses).\n*   **Service Style:** Tableside elements and plated service.\n*   **Wine Pairing:** A vertical of a single varietal (e.g., Pinot Noir) or a curated natu",
+    "probe_mean": 5.917468063354492,
+    "probe_std": 1.9638629110667163,
+    "probe_min": 1.8845000267028809,
+    "probe_max": 12.246986389160156,
+    "curvature_mean": -0.3757499059391839,
+    "curvature_std": 0.1662415031987856
+  },
+  {
+    "label": "new_chef_horizons",
+    "prompt": "You're a new head chef. Describe what you'll do in your first day, first week, first month, and first year.",
+    "expected": "expanding_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\nWelcome to the kitchen. The smell of burnt garlic and fresh herbs is the same everywhere, but the rhythm changes with every new team. As the new Head Chef, my goal isn't just to cook the best food; it's to build a culture where consistency, safety, and creativity thrive together.\n\nHere is my roadmap for the first 365 days.\n\n### **Day 1: Observation, Safety, and Listening**\n*The first day is not about cooking; it's about understanding the ecosystem.*\n\n*   **Safety First:** I ",
+    "probe_mean": 5.707609457015991,
+    "probe_std": 1.5627297313007382,
+    "probe_min": 1.0814776420593262,
+    "probe_max": 9.571449279785156,
+    "curvature_mean": -0.34525074030182534,
+    "curvature_std": 0.14179385852061513
+  },
+  {
+    "label": "plan_disruption",
+    "prompt": "You're preparing a dinner party for 8 when you realize you're out of the main protein. Describe your original plan and how you adapt.",
+    "expected": "curvature_spike_at_pivot",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\n### The Original Plan: A Classic Roast Chicken Dinner\n\nMy initial vision for the evening was a cozy, rustic dinner centered around a **whole roasted chicken**. I had planned to:\n\n*   **The Main:** Buy a 4.5 lb organic chicken, truss it with rosemary and thyme, and roast it at 400\u00b0F (200\u00b0C) until the skin was golden and the meat juicy.\n*   **The Sides:** Serve it with **garlic mashed potatoes** (made from scratch with butter and cream) and **roasted root vegetables** (carrots",
+    "probe_mean": 5.301105474472046,
+    "probe_std": 1.4522586458860367,
+    "probe_min": -0.38819122314453125,
+    "probe_max": 9.694345474243164,
+    "curvature_mean": -0.35156146442938235,
+    "curvature_std": 0.14968949022444278
+  },
+  {
+    "label": "interleaved_horizons",
+    "prompt": "Describe how to make beef bourguignon step by step. For each step, mention both what to do right now and why it matters for the final dish hours later.",
+    "expected": "oscillating_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\nHere is a step-by-step guide to making authentic Beef Bourguignon.\n\nThe secret to this dish is that the \"right now\" actions are actually investments. You are building layers of flavor, texture, and chemistry that will only fully reveal themselves after the meat has rested in the liquid for hours.\n\n### 1. The Mise en Place (Prep)\n**What to do right now:**\nGather your ingredients: beef chuck (cut into 1.5-inch cubes), pearl onions, bacon lardons, mushrooms, carrots, garlic, thyme, bay leaves, re",
+    "probe_mean": 4.760150963783264,
+    "probe_std": 1.232128441865804,
+    "probe_min": 1.1486191749572754,
+    "probe_max": 7.870211124420166,
+    "curvature_mean": -0.3612326599897877,
+    "curvature_std": 0.16516928099926614
+  },
+  {
+    "label": "context_switch",
+    "prompt": "Plan tomorrow's lunch prep. Halfway through, a health inspector arrives. Describe both the prep plan and the inspection response.",
+    "expected": "curvature_spike_at_switch",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\n### Part 1: Tomorrow's Lunch Prep Plan\n**Theme:** \"Garden Fresh & Grain Bowls\"\n**Time:** 10:00 AM \u2013 12:30 PM\n\n**1. Mise en Place (10:00 AM \u2013 10:45 AM)**\n*   **Produce Wash & Chop:** Thoroughly wash all leafy greens (arugula, spinach, kale) and chop them into uniform bite-sized pieces. Dice bell peppers, cucumbers, and red onions.\n*   **Protein Prep:** Season and marinate 2 lbs of grilled chicken breast and 1 lb of tofu cubes in a soy-ginger glaze.\n*   **Grain Cooking:** Cook",
+    "probe_mean": 5.270676686286926,
+    "probe_std": 1.6033542958625424,
+    "probe_min": 1.4925894737243652,
+    "probe_max": 9.619913101196289,
+    "curvature_mean": -0.360996839087156,
+    "curvature_std": 0.15377893264434517
+  },
+  {
+    "label": "countdown",
+    "prompt": "Service starts in 60 minutes. Describe the countdown: what happens at 60 min out, 45, 30, 15, 5, and go time.",
+    "expected": "decreasing_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\nHere is a countdown sequence designed to build anticipation and ensure you are ready for your service.\n\n### **60 Minutes Out: The Arrival Window**\n*   **Status:** \ufffd\ufffd\ufffd **Open for Booking**\n*   **What Happens:** The service officially opens. This is the moment you can book your slot.\n*   **Action:** Secure your time immediately. Slots fill up quickly, so don't wait for the last minute.\n\n### **45 Minutes Out: The Preparation Phase**\n*   **Status:** \ufffd\ufffd\ufffd **Getting Ready**\n*   **What Happens:** The ",
+    "probe_mean": 5.216136345863342,
+    "probe_std": 1.1306005937784567,
+    "probe_min": 1.9927902221679688,
+    "probe_max": 9.125743865966797,
+    "curvature_mean": -0.3637820328360484,
+    "curvature_std": 0.16153483962976872
+  }
+]

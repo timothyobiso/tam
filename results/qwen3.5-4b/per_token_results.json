@@ -1,0 +1,93 @@
+[
+  {
+    "label": "saturday_service",
+    "prompt": "Write a detailed hour-by-hour schedule for a restaurant kitchen on a busy Saturday night, from 3pm prep to midnight cleanup.",
+    "expected": "advancing_time",
+    "n_tokens": 250,
+    "generated_text": " Include specific tasks for each shift (Prep, Line, and Back of House) and ensure the service is smooth and efficient.\n\n<think>:Here's a thinking process that leads to the suggested schedule:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Restaurant kitchen schedule.\n    *   **Context:** Busy Saturday night (high volume, high energy).\n    *   **Timeframe:** 3:00 PM (Prep) to 12:00 AM (Midnight Cleanup).\n    *   **Roles:** Prep (Line/Prep), Line (Front of House/Service), Back of House (BOH - Di",
+    "probe_mean": 5.55307388496399,
+    "probe_std": 1.3307051542855404,
+    "probe_min": 2.021087169647217,
+    "probe_max": 9.062110900878906,
+    "curvature_mean": -0.396990220032392,
+    "curvature_std": 0.15508601222890492
+  },
+  {
+    "label": "tasting_menu",
+    "prompt": "Plan a 5-course tasting menu dinner service. For each course, describe the timing, preparation, and plating.",
+    "expected": "advancing_steps",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>:\n\n</think>\n\nHere is a comprehensive plan for a **5-Course Tasting Menu** titled *\"The Garden & The Sea.\"* This menu balances seasonal produce, sustainable seafood, and artisanal elements, designed to be served in a 90-minute window.\n\n### **Service Overview**\n*   **Total Duration:** 90 Minutes\n*   **Pacing:** 15\u201318 minutes per course (including service time).\n*   **Service Style:** Tableside preparation for the final two courses to enhance the theatrical experience.\n*   **Wine Pairing S",
+    "probe_mean": 5.1717799348831175,
+    "probe_std": 1.5330614800922817,
+    "probe_min": 1.1178350448608398,
+    "probe_max": 10.547548294067383,
+    "curvature_mean": -0.3640301045961678,
+    "curvature_std": 0.15452188326266744
+  },
+  {
+    "label": "new_chef_horizons",
+    "prompt": "You're a new head chef. Describe what you'll do in your first day, first week, first month, and first year.",
+    "expected": "expanding_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\nStepping into the role of a new Head Chef is an exhilarating mix of adrenaline and responsibility. It's not just about cooking; it's about leadership, culture, and vision. Here is my roadmap for the first year, broken down by the critical milestones of onboarding.\n\n### **Day 1: Immersion, Observation, and Connection**\n*My goal today is not to change anything, but to understand everything.*\n\n*   **The Walk-Through:** I will start by walking the entire kitchen floor, from the ",
+    "probe_mean": 5.727355588912964,
+    "probe_std": 1.3965372477837619,
+    "probe_min": 1.465609073638916,
+    "probe_max": 11.083913803100586,
+    "curvature_mean": -0.35825716919122985,
+    "curvature_std": 0.16084183474680344
+  },
+  {
+    "label": "plan_disruption",
+    "prompt": "You're preparing a dinner party for 8 when you realize you're out of the main protein. Describe your original plan and how you adapt.",
+    "expected": "curvature_spike_at_pivot",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Scenario:** Preparing a dinner party for 8 guests.\n    *   **Problem:** Realizing out of the main protein (e.g., steak, chicken, fish) right before/during prep.\n    *   **Task:** Describe the *original plan* and the *adaptation* (how to fix the problem).\n    *   **Tone:** Practical, engaging, slightly narrative (since it's a \"describe\" prompt).\n\n2.  **Determine the Original Plan:**\n ",
+    "probe_mean": 5.7308493967056275,
+    "probe_std": 1.0735712377970332,
+    "probe_min": 3.049839496612549,
+    "probe_max": 8.372418403625488,
+    "curvature_mean": -0.3884702621238126,
+    "curvature_std": 0.16112302875494416
+  },
+  {
+    "label": "interleaved_horizons",
+    "prompt": "Describe how to make beef bourguignon step by step. For each step, mention both what to do right now and why it matters for the final dish hours later.",
+    "expected": "oscillating_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\nMaking **B\u0153uf Bourguignon** is an art of patience. The magic happens not just in the cooking process, but in the chemical reactions that occur over several hours. Here is a step-by-step guide that connects your immediate actions to the final result.\n\n### 1. Select and Prep the Meat\n**What to do right now:**\nChoose a cut rich in connective tissue, such as chuck roast or brisket. Trim excess fat, but leave some marbling. Cut the meat into 1.5 to 2-inch cubes. While the meat si",
+    "probe_mean": 4.54094179725647,
+    "probe_std": 1.2008325446429013,
+    "probe_min": 0.9358415603637695,
+    "probe_max": 9.35399341583252,
+    "curvature_mean": -0.3611302758687206,
+    "curvature_std": 0.14661619637130774
+  },
+  {
+    "label": "context_switch",
+    "prompt": "Plan tomorrow's lunch prep. Halfway through, a health inspector arrives. Describe both the prep plan and the inspection response.",
+    "expected": "curvature_spike_at_switch",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\n\n</think>\n\n### Part 1: Tomorrow's Lunch Prep Plan\n\n**Objective:** Prepare a balanced, high-volume lunch for 20 employees with a focus on food safety, minimal waste, and efficient workflow.\n\n**Menu Strategy:**\n*   **Protein:** Grilled chicken breast (marinated in lemon-herb oil) and baked salmon fillets.\n*   **Carbohydrates:** Quinoa pilaf (cooked in advance) and whole-grain rolls.\n*   **Vegetables:** Roasted broccoli, steamed asparagus, and a fresh side salad with mixed greens, cherry ",
+    "probe_mean": 4.76876683139801,
+    "probe_std": 1.3836788599287344,
+    "probe_min": 0.4435257911682129,
+    "probe_max": 8.341866493225098,
+    "curvature_mean": -0.36800400859811494,
+    "curvature_std": 0.16062337985362932
+  },
+  {
+    "label": "countdown",
+    "prompt": "Service starts in 60 minutes. Describe the countdown: what happens at 60 min out, 45, 30, 15, 5, and go time.",
+    "expected": "decreasing_horizon",
+    "n_tokens": 250,
+    "generated_text": "\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Service starts in 60 minutes.\n    *   **Task:** Describe the countdown.\n    *   **Specific Timepoints:** 60 min out, 45, 30, 15, 5, and go time (0).\n    *   **Tone/Style:** The prompt asks for a description of the countdown. It doesn't specify a context (e.g., a movie, a live event, a software deployment, a restaurant reservation). I need to choose a context or keep it general but engaging. Given the phrasing \"Service s",
+    "probe_mean": 5.262041219711303,
+    "probe_std": 1.1376125764078386,
+    "probe_min": 1.250962734222412,
+    "probe_max": 8.549967765808105,
+    "curvature_mean": -0.3594370327604514,
+    "curvature_std": 0.14609285066298164
+  }
+]

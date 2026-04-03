@@ -1,0 +1,852 @@
+[
+  {
+    "clean_pred": 1.1167,
+    "corrupt_pred": 8.3454,
+    "gap": 7.2287,
+    "recoveries": [
+      {
+        "layer": 0,
+        "patched_pred": 8.3163,
+        "recovery": 0.004
+      },
+      {
+        "layer": 1,
+        "patched_pred": 8.2674,
+        "recovery": 0.0108
+      },
+      {
+        "layer": 2,
+        "patched_pred": 8.3015,
+        "recovery": 0.0061
+      },
+      {
+        "layer": 3,
+        "patched_pred": 8.2896,
+        "recovery": 0.0077
+      },
+      {
+        "layer": 4,
+        "patched_pred": 8.2821,
+        "recovery": 0.0088
+      },
+      {
+        "layer": 5,
+        "patched_pred": 8.2713,
+        "recovery": 0.0102
+      },
+      {
+        "layer": 6,
+        "patched_pred": 8.1695,
+        "recovery": 0.0243
+      },
+      {
+        "layer": 7,
+        "patched_pred": 8.1506,
+        "recovery": 0.0269
+      },
+      {
+        "layer": 8,
+        "patched_pred": 8.0741,
+        "recovery": 0.0375
+      },
+      {
+        "layer": 9,
+        "patched_pred": 7.9846,
+        "recovery": 0.0499
+      },
+      {
+        "layer": 10,
+        "patched_pred": 7.7266,
+        "recovery": 0.0856
+      },
+      {
+        "layer": 11,
+        "patched_pred": 7.6556,
+        "recovery": 0.0954
+      },
+      {
+        "layer": 12,
+        "patched_pred": 7.3243,
+        "recovery": 0.1413
+      },
+      {
+        "layer": 13,
+        "patched_pred": 7.1225,
+        "recovery": 0.1692
+      },
+      {
+        "layer": 14,
+        "patched_pred": 7.0891,
+        "recovery": 0.1738
+      },
+      {
+        "layer": 15,
+        "patched_pred": 7.0579,
+        "recovery": 0.1781
+      },
+      {
+        "layer": 16,
+        "patched_pred": 6.7378,
+        "recovery": 0.2224
+      },
+      {
+        "layer": 17,
+        "patched_pred": 5.7246,
+        "recovery": 0.3625
+      },
+      {
+        "layer": 18,
+        "patched_pred": 5.0176,
+        "recovery": 0.4604
+      },
+      {
+        "layer": 19,
+        "patched_pred": 4.6078,
+        "recovery": 0.5171
+      },
+      {
+        "layer": 20,
+        "patched_pred": 3.2559,
+        "recovery": 0.7041
+      },
+      {
+        "layer": 21,
+        "patched_pred": 2.8597,
+        "recovery": 0.7589
+      },
+      {
+        "layer": 22,
+        "patched_pred": 2.3809,
+        "recovery": 0.8251
+      },
+      {
+        "layer": 23,
+        "patched_pred": 2.344,
+        "recovery": 0.8302
+      },
+      {
+        "layer": 24,
+        "patched_pred": 2.2172,
+        "recovery": 0.8477
+      },
+      {
+        "layer": 25,
+        "patched_pred": 2.0687,
+        "recovery": 0.8683
+      },
+      {
+        "layer": 26,
+        "patched_pred": 2.0825,
+        "recovery": 0.8664
+      },
+      {
+        "layer": 27,
+        "patched_pred": 2.0919,
+        "recovery": 0.8651
+      },
+      {
+        "layer": 28,
+        "patched_pred": 1.7067,
+        "recovery": 0.9184
+      },
+      {
+        "layer": 29,
+        "patched_pred": 1.5493,
+        "recovery": 0.9402
+      },
+      {
+        "layer": 30,
+        "patched_pred": 1.1996,
+        "recovery": 0.9885
+      },
+      {
+        "layer": 31,
+        "patched_pred": 0.9115,
+        "recovery": 1.0284
+      }
+    ],
+    "label": "seconds_vs_years",
+    "short": "In the next 30 seconds, the chef needs to",
+    "long": "Over the next five years, the restaurant needs to"
+  },
+  {
+    "clean_pred": 1.8188,
+    "corrupt_pred": 10.2549,
+    "gap": 8.4361,
+    "recoveries": [
+      {
+        "layer": 0,
+        "patched_pred": 9.9945,
+        "recovery": 0.0309
+      },
+      {
+        "layer": 1,
+        "patched_pred": 9.9941,
+        "recovery": 0.0309
+      },
+      {
+        "layer": 2,
+        "patched_pred": 9.9037,
+        "recovery": 0.0416
+      },
+      {
+        "layer": 3,
+        "patched_pred": 9.877,
+        "recovery": 0.0448
+      },
+      {
+        "layer": 4,
+        "patched_pred": 9.9128,
+        "recovery": 0.0405
+      },
+      {
+        "layer": 5,
+        "patched_pred": 9.6268,
+        "recovery": 0.0745
+      },
+      {
+        "layer": 6,
+        "patched_pred": 9.2568,
+        "recovery": 0.1183
+      },
+      {
+        "layer": 7,
+        "patched_pred": 9.1723,
+        "recovery": 0.1283
+      },
+      {
+        "layer": 8,
+        "patched_pred": 9.0591,
+        "recovery": 0.1418
+      },
+      {
+        "layer": 9,
+        "patched_pred": 9.1175,
+        "recovery": 0.1348
+      },
+      {
+        "layer": 10,
+        "patched_pred": 9.108,
+        "recovery": 0.1359
+      },
+      {
+        "layer": 11,
+        "patched_pred": 9.1046,
+        "recovery": 0.1364
+      },
+      {
+        "layer": 12,
+        "patched_pred": 8.7174,
+        "recovery": 0.1823
+      },
+      {
+        "layer": 13,
+        "patched_pred": 7.8947,
+        "recovery": 0.2798
+      },
+      {
+        "layer": 14,
+        "patched_pred": 6.9815,
+        "recovery": 0.388
+      },
+      {
+        "layer": 15,
+        "patched_pred": 7.0333,
+        "recovery": 0.3819
+      },
+      {
+        "layer": 16,
+        "patched_pred": 5.752,
+        "recovery": 0.5338
+      },
+      {
+        "layer": 17,
+        "patched_pred": 3.7697,
+        "recovery": 0.7687
+      },
+      {
+        "layer": 18,
+        "patched_pred": 2.9493,
+        "recovery": 0.866
+      },
+      {
+        "layer": 19,
+        "patched_pred": 3.0445,
+        "recovery": 0.8547
+      },
+      {
+        "layer": 20,
+        "patched_pred": 2.7146,
+        "recovery": 0.8938
+      },
+      {
+        "layer": 21,
+        "patched_pred": 2.4788,
+        "recovery": 0.9218
+      },
+      {
+        "layer": 22,
+        "patched_pred": 2.4392,
+        "recovery": 0.9265
+      },
+      {
+        "layer": 23,
+        "patched_pred": 2.3834,
+        "recovery": 0.9331
+      },
+      {
+        "layer": 24,
+        "patched_pred": 2.3036,
+        "recovery": 0.9425
+      },
+      {
+        "layer": 25,
+        "patched_pred": 2.3084,
+        "recovery": 0.942
+      },
+      {
+        "layer": 26,
+        "patched_pred": 2.31,
+        "recovery": 0.9418
+      },
+      {
+        "layer": 27,
+        "patched_pred": 2.3659,
+        "recovery": 0.9351
+      },
+      {
+        "layer": 28,
+        "patched_pred": 2.1261,
+        "recovery": 0.9636
+      },
+      {
+        "layer": 29,
+        "patched_pred": 2.0728,
+        "recovery": 0.9699
+      },
+      {
+        "layer": 30,
+        "patched_pred": 1.9037,
+        "recovery": 0.9899
+      },
+      {
+        "layer": 31,
+        "patched_pred": 1.7371,
+        "recovery": 1.0097
+      }
+    ],
+    "label": "immediate_vs_annual",
+    "short": "Immediately flip the steak before it",
+    "long": "Plan the seasonal menu rotation for the coming year so that"
+  },
+  {
+    "clean_pred": 1.9678,
+    "corrupt_pred": 8.5463,
+    "gap": 6.5785,
+    "recoveries": [
+      {
+        "layer": 0,
+        "patched_pred": 8.0017,
+        "recovery": 0.0828
+      },
+      {
+        "layer": 1,
+        "patched_pred": 7.9666,
+        "recovery": 0.0881
+      },
+      {
+        "layer": 2,
+        "patched_pred": 7.7155,
+        "recovery": 0.1263
+      },
+      {
+        "layer": 3,
+        "patched_pred": 7.6228,
+        "recovery": 0.1404
+      },
+      {
+        "layer": 4,
+        "patched_pred": 7.5855,
+        "recovery": 0.146
+      },
+      {
+        "layer": 5,
+        "patched_pred": 7.7655,
+        "recovery": 0.1187
+      },
+      {
+        "layer": 6,
+        "patched_pred": 7.2702,
+        "recovery": 0.194
+      },
+      {
+        "layer": 7,
+        "patched_pred": 7.2854,
+        "recovery": 0.1917
+      },
+      {
+        "layer": 8,
+        "patched_pred": 7.26,
+        "recovery": 0.1955
+      },
+      {
+        "layer": 9,
+        "patched_pred": 7.1107,
+        "recovery": 0.2182
+      },
+      {
+        "layer": 10,
+        "patched_pred": 6.7615,
+        "recovery": 0.2713
+      },
+      {
+        "layer": 11,
+        "patched_pred": 6.7934,
+        "recovery": 0.2665
+      },
+      {
+        "layer": 12,
+        "patched_pred": 6.6485,
+        "recovery": 0.2885
+      },
+      {
+        "layer": 13,
+        "patched_pred": 6.5977,
+        "recovery": 0.2962
+      },
+      {
+        "layer": 14,
+        "patched_pred": 5.3343,
+        "recovery": 0.4883
+      },
+      {
+        "layer": 15,
+        "patched_pred": 5.1708,
+        "recovery": 0.5131
+      },
+      {
+        "layer": 16,
+        "patched_pred": 4.6363,
+        "recovery": 0.5944
+      },
+      {
+        "layer": 17,
+        "patched_pred": 3.6456,
+        "recovery": 0.745
+      },
+      {
+        "layer": 18,
+        "patched_pred": 3.2277,
+        "recovery": 0.8085
+      },
+      {
+        "layer": 19,
+        "patched_pred": 2.8729,
+        "recovery": 0.8624
+      },
+      {
+        "layer": 20,
+        "patched_pred": 2.5765,
+        "recovery": 0.9075
+      },
+      {
+        "layer": 21,
+        "patched_pred": 2.4637,
+        "recovery": 0.9246
+      },
+      {
+        "layer": 22,
+        "patched_pred": 2.7622,
+        "recovery": 0.8792
+      },
+      {
+        "layer": 23,
+        "patched_pred": 2.7089,
+        "recovery": 0.8873
+      },
+      {
+        "layer": 24,
+        "patched_pred": 2.6137,
+        "recovery": 0.9018
+      },
+      {
+        "layer": 25,
+        "patched_pred": 2.6709,
+        "recovery": 0.8931
+      },
+      {
+        "layer": 26,
+        "patched_pred": 2.494,
+        "recovery": 0.92
+      },
+      {
+        "layer": 27,
+        "patched_pred": 2.4089,
+        "recovery": 0.933
+      },
+      {
+        "layer": 28,
+        "patched_pred": 2.231,
+        "recovery": 0.96
+      },
+      {
+        "layer": 29,
+        "patched_pred": 2.1283,
+        "recovery": 0.9756
+      },
+      {
+        "layer": 30,
+        "patched_pred": 1.9942,
+        "recovery": 0.996
+      },
+      {
+        "layer": 31,
+        "patched_pred": 1.9106,
+        "recovery": 1.0087
+      }
+    ],
+    "label": "timer_vs_training",
+    "short": "The timer is going off right now, quickly",
+    "long": "Develop a long-term training program for new kitchen staff that"
+  },
+  {
+    "clean_pred": 3.7067,
+    "corrupt_pred": 10.2617,
+    "gap": 6.555,
+    "recoveries": [
+      {
+        "layer": 0,
+        "patched_pred": 8.9224,
+        "recovery": 0.2043
+      },
+      {
+        "layer": 1,
+        "patched_pred": 8.9354,
+        "recovery": 0.2023
+      },
+      {
+        "layer": 2,
+        "patched_pred": 8.6211,
+        "recovery": 0.2503
+      },
+      {
+        "layer": 3,
+        "patched_pred": 8.8333,
+        "recovery": 0.2179
+      },
+      {
+        "layer": 4,
+        "patched_pred": 9.0353,
+        "recovery": 0.1871
+      },
+      {
+        "layer": 5,
+        "patched_pred": 8.8128,
+        "recovery": 0.221
+      },
+      {
+        "layer": 6,
+        "patched_pred": 8.3723,
+        "recovery": 0.2882
+      },
+      {
+        "layer": 7,
+        "patched_pred": 8.1618,
+        "recovery": 0.3203
+      },
+      {
+        "layer": 8,
+        "patched_pred": 8.0772,
+        "recovery": 0.3332
+      },
+      {
+        "layer": 9,
+        "patched_pred": 8.2409,
+        "recovery": 0.3083
+      },
+      {
+        "layer": 10,
+        "patched_pred": 8.1389,
+        "recovery": 0.3238
+      },
+      {
+        "layer": 11,
+        "patched_pred": 8.1628,
+        "recovery": 0.3202
+      },
+      {
+        "layer": 12,
+        "patched_pred": 8.1686,
+        "recovery": 0.3193
+      },
+      {
+        "layer": 13,
+        "patched_pred": 7.812,
+        "recovery": 0.3737
+      },
+      {
+        "layer": 14,
+        "patched_pred": 7.7986,
+        "recovery": 0.3758
+      },
+      {
+        "layer": 15,
+        "patched_pred": 7.8073,
+        "recovery": 0.3744
+      },
+      {
+        "layer": 16,
+        "patched_pred": 7.2068,
+        "recovery": 0.466
+      },
+      {
+        "layer": 17,
+        "patched_pred": 6.4128,
+        "recovery": 0.5872
+      },
+      {
+        "layer": 18,
+        "patched_pred": 6.3572,
+        "recovery": 0.5957
+      },
+      {
+        "layer": 19,
+        "patched_pred": 6.1082,
+        "recovery": 0.6336
+      },
+      {
+        "layer": 20,
+        "patched_pred": 5.3588,
+        "recovery": 0.748
+      },
+      {
+        "layer": 21,
+        "patched_pred": 5.0726,
+        "recovery": 0.7916
+      },
+      {
+        "layer": 22,
+        "patched_pred": 4.9029,
+        "recovery": 0.8175
+      },
+      {
+        "layer": 23,
+        "patched_pred": 4.8717,
+        "recovery": 0.8223
+      },
+      {
+        "layer": 24,
+        "patched_pred": 4.5848,
+        "recovery": 0.866
+      },
+      {
+        "layer": 25,
+        "patched_pred": 4.5927,
+        "recovery": 0.8648
+      },
+      {
+        "layer": 26,
+        "patched_pred": 4.5465,
+        "recovery": 0.8719
+      },
+      {
+        "layer": 27,
+        "patched_pred": 4.5115,
+        "recovery": 0.8772
+      },
+      {
+        "layer": 28,
+        "patched_pred": 4.2663,
+        "recovery": 0.9146
+      },
+      {
+        "layer": 29,
+        "patched_pred": 4.0838,
+        "recovery": 0.9425
+      },
+      {
+        "layer": 30,
+        "patched_pred": 3.7773,
+        "recovery": 0.9892
+      },
+      {
+        "layer": 31,
+        "patched_pred": 3.7006,
+        "recovery": 1.0009
+      }
+    ],
+    "label": "minute_vs_decade",
+    "short": "In the next minute, finish plating the",
+    "long": "Over the next decade, build the restaurant brand by"
+  },
+  {
+    "clean_pred": 8.036,
+    "corrupt_pred": 8.6441,
+    "gap": 0.6081,
+    "recoveries": [
+      {
+        "layer": 0,
+        "patched_pred": 9.0237,
+        "recovery": -0.6243
+      },
+      {
+        "layer": 1,
+        "patched_pred": 9.224,
+        "recovery": -0.9536
+      },
+      {
+        "layer": 2,
+        "patched_pred": 9.1481,
+        "recovery": -0.8289
+      },
+      {
+        "layer": 3,
+        "patched_pred": 9.0972,
+        "recovery": -0.7451
+      },
+      {
+        "layer": 4,
+        "patched_pred": 8.9684,
+        "recovery": -0.5333
+      },
+      {
+        "layer": 5,
+        "patched_pred": 8.8533,
+        "recovery": -0.344
+      },
+      {
+        "layer": 6,
+        "patched_pred": 8.8228,
+        "recovery": -0.2939
+      },
+      {
+        "layer": 7,
+        "patched_pred": 8.9235,
+        "recovery": -0.4595
+      },
+      {
+        "layer": 8,
+        "patched_pred": 8.89,
+        "recovery": -0.4044
+      },
+      {
+        "layer": 9,
+        "patched_pred": 8.6495,
+        "recovery": -0.0088
+      },
+      {
+        "layer": 10,
+        "patched_pred": 8.6322,
+        "recovery": 0.0196
+      },
+      {
+        "layer": 11,
+        "patched_pred": 8.6869,
+        "recovery": -0.0704
+      },
+      {
+        "layer": 12,
+        "patched_pred": 8.7475,
+        "recovery": -0.17
+      },
+      {
+        "layer": 13,
+        "patched_pred": 8.909,
+        "recovery": -0.4357
+      },
+      {
+        "layer": 14,
+        "patched_pred": 8.9669,
+        "recovery": -0.5309
+      },
+      {
+        "layer": 15,
+        "patched_pred": 9.0067,
+        "recovery": -0.5963
+      },
+      {
+        "layer": 16,
+        "patched_pred": 8.9006,
+        "recovery": -0.4218
+      },
+      {
+        "layer": 17,
+        "patched_pred": 8.6056,
+        "recovery": 0.0633
+      },
+      {
+        "layer": 18,
+        "patched_pred": 8.6748,
+        "recovery": -0.0504
+      },
+      {
+        "layer": 19,
+        "patched_pred": 8.6183,
+        "recovery": 0.0424
+      },
+      {
+        "layer": 20,
+        "patched_pred": 8.4562,
+        "recovery": 0.309
+      },
+      {
+        "layer": 21,
+        "patched_pred": 8.3357,
+        "recovery": 0.5071
+      },
+      {
+        "layer": 22,
+        "patched_pred": 8.4888,
+        "recovery": 0.2553
+      },
+      {
+        "layer": 23,
+        "patched_pred": 8.4655,
+        "recovery": 0.2937
+      },
+      {
+        "layer": 24,
+        "patched_pred": 8.354,
+        "recovery": 0.477
+      },
+      {
+        "layer": 25,
+        "patched_pred": 8.3583,
+        "recovery": 0.4699
+      },
+      {
+        "layer": 26,
+        "patched_pred": 8.4362,
+        "recovery": 0.3419
+      },
+      {
+        "layer": 27,
+        "patched_pred": 8.4676,
+        "recovery": 0.2902
+      },
+      {
+        "layer": 28,
+        "patched_pred": 8.3373,
+        "recovery": 0.5046
+      },
+      {
+        "layer": 29,
+        "patched_pred": 8.3219,
+        "recovery": 0.5297
+      },
+      {
+        "layer": 30,
+        "patched_pred": 8.126,
+        "recovery": 0.852
+      },
+      {
+        "layer": 31,
+        "patched_pred": 8.1216,
+        "recovery": 0.8592
+      }
+    ],
+    "label": "now_vs_months",
+    "short": "Right now, turn down the heat on the",
+    "long": "Over the coming months, redesign the entire kitchen workflow to"
+  }
+]

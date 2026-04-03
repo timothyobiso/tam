@@ -1,0 +1,256 @@
+{
+  "model": "qwen3.5-9b",
+  "probe_layer": 32,
+  "correlations": {
+    "overall": {
+      "r_stated": -0.144,
+      "p_stated": 0.501978,
+      "r_realistic": 0.6338,
+      "p_realistic": 0.000882
+    },
+    "by_category": {
+      "honest": {
+        "r_stated": 0.781,
+        "p_stated": 0.0221,
+        "r_realistic": 0.781,
+        "p_realistic": 0.0221,
+        "mean_pred": 4.723,
+        "n": 8
+      },
+      "understated": {
+        "r_stated": 0.334,
+        "p_stated": 0.4188,
+        "r_realistic": 0.2675,
+        "p_realistic": 0.5218,
+        "mean_pred": 7.366,
+        "n": 8
+      },
+      "overstated": {
+        "r_stated": -0.1838,
+        "p_stated": 0.663,
+        "r_realistic": 0.5976,
+        "p_realistic": 0.1177,
+        "mean_pred": 4.593,
+        "n": 8
+      }
+    }
+  },
+  "results": [
+    {
+      "prompt": "This will take about 30 seconds: quickly flip the steak and plate it",
+      "category": "honest",
+      "stated_minutes": 0.5,
+      "realistic_minutes": 0.5,
+      "log_stated": 0.405,
+      "log_realistic": 0.405,
+      "probe_pred": 2.237
+    },
+    {
+      "prompt": "In the next 5 minutes, chop the onions and saut\u00e9 them in butter",
+      "category": "honest",
+      "stated_minutes": 5,
+      "realistic_minutes": 5,
+      "log_stated": 1.792,
+      "log_realistic": 1.792,
+      "probe_pred": 0.676
+    },
+    {
+      "prompt": "Over the next hour, prepare the full mise en place for tonight's service",
+      "category": "honest",
+      "stated_minutes": 60,
+      "realistic_minutes": 60,
+      "log_stated": 4.111,
+      "log_realistic": 4.111,
+      "probe_pred": 5.121
+    },
+    {
+      "prompt": "This week-long project involves developing three new seasonal dishes and testing",
+      "category": "honest",
+      "stated_minutes": 10080,
+      "realistic_minutes": 10080,
+      "log_stated": 9.218,
+      "log_realistic": 9.218,
+      "probe_pred": 7.259
+    },
+    {
+      "prompt": "The 6-month plan is to renovate the kitchen, hire a new sous chef, and rebrand t",
+      "category": "honest",
+      "stated_minutes": 259200,
+      "realistic_minutes": 259200,
+      "log_stated": 12.465,
+      "log_realistic": 12.465,
+      "probe_pred": 9.733
+    },
+    {
+      "prompt": "Over the next 15 minutes, reduce the sauce and season to taste",
+      "category": "honest",
+      "stated_minutes": 15,
+      "realistic_minutes": 15,
+      "log_stated": 2.773,
+      "log_realistic": 2.773,
+      "probe_pred": 3.899
+    },
+    {
+      "prompt": "This two-day prep involves brining the turkey, making three pies, and preparing ",
+      "category": "honest",
+      "stated_minutes": 2880,
+      "realistic_minutes": 2880,
+      "log_stated": 7.966,
+      "log_realistic": 7.966,
+      "probe_pred": 1.633
+    },
+    {
+      "prompt": "The year-long apprenticeship covers knife skills, sauces, pastry, and restaurant",
+      "category": "honest",
+      "stated_minutes": 525600,
+      "realistic_minutes": 525600,
+      "log_stated": 13.172,
+      "log_realistic": 13.172,
+      "probe_pred": 7.229
+    },
+    {
+      "prompt": "This quick 5-minute task: completely renovate the restaurant kitchen, replace al",
+      "category": "understated",
+      "stated_minutes": 5,
+      "realistic_minutes": 131400,
+      "log_stated": 1.792,
+      "log_realistic": 11.786,
+      "probe_pred": 7.634
+    },
+    {
+      "prompt": "In just 2 minutes, develop a comprehensive farm-to-table supply chain covering 1",
+      "category": "understated",
+      "stated_minutes": 2,
+      "realistic_minutes": 259200,
+      "log_stated": 1.099,
+      "log_realistic": 12.465,
+      "probe_pred": 10.015
+    },
+    {
+      "prompt": "This 10-second job involves building a restaurant from scratch including permits",
+      "category": "understated",
+      "stated_minutes": 0.17,
+      "realistic_minutes": 525600,
+      "log_stated": 0.157,
+      "log_realistic": 13.172,
+      "probe_pred": 7.444
+    },
+    {
+      "prompt": "In the next 30 seconds, train an entire brigade of 15 chefs to master French cla",
+      "category": "understated",
+      "stated_minutes": 0.5,
+      "realistic_minutes": 525600,
+      "log_stated": 0.405,
+      "log_realistic": 13.172,
+      "probe_pred": 2.426
+    },
+    {
+      "prompt": "This quick 1-minute task: plan and execute a 500-person wedding reception with c",
+      "category": "understated",
+      "stated_minutes": 1,
+      "realistic_minutes": 43200,
+      "log_stated": 0.693,
+      "log_realistic": 10.674,
+      "probe_pred": 6.413
+    },
+    {
+      "prompt": "In just 3 minutes, write a complete cookbook with 200 recipes, food photography,",
+      "category": "understated",
+      "stated_minutes": 3,
+      "realistic_minutes": 525600,
+      "log_stated": 1.386,
+      "log_realistic": 13.172,
+      "probe_pred": 6.39
+    },
+    {
+      "prompt": "This 5-minute job: open a chain of 10 restaurants across the country with standa",
+      "category": "understated",
+      "stated_minutes": 5,
+      "realistic_minutes": 2628000,
+      "log_stated": 1.792,
+      "log_realistic": 14.782,
+      "probe_pred": 8.679
+    },
+    {
+      "prompt": "In the next 60 seconds, breed a new variety of heirloom tomato and establish a s",
+      "category": "understated",
+      "stated_minutes": 1,
+      "realistic_minutes": 2628000,
+      "log_stated": 0.693,
+      "log_realistic": 14.782,
+      "probe_pred": 9.924
+    },
+    {
+      "prompt": "This year-long endeavor: flip the pancake onto the plate",
+      "category": "overstated",
+      "stated_minutes": 525600,
+      "realistic_minutes": 0.1,
+      "log_stated": 13.172,
+      "log_realistic": 0.095,
+      "probe_pred": 2.847
+    },
+    {
+      "prompt": "Over the next decade, carefully turn off the stove burner",
+      "category": "overstated",
+      "stated_minutes": 5256000,
+      "realistic_minutes": 0.05,
+      "log_stated": 15.475,
+      "log_realistic": 0.049,
+      "probe_pred": 3.288
+    },
+    {
+      "prompt": "This 6-month project involves adding a pinch of salt to the soup",
+      "category": "overstated",
+      "stated_minutes": 259200,
+      "realistic_minutes": 0.1,
+      "log_stated": 12.465,
+      "log_realistic": 0.095,
+      "probe_pred": 6.463
+    },
+    {
+      "prompt": "Plan over the next five years to open the refrigerator door and grab the butter",
+      "category": "overstated",
+      "stated_minutes": 2628000,
+      "realistic_minutes": 0.2,
+      "log_stated": 14.782,
+      "log_realistic": 0.182,
+      "probe_pred": 3.691
+    },
+    {
+      "prompt": "This multi-year strategic initiative: wipe down the counter with a damp cloth",
+      "category": "overstated",
+      "stated_minutes": 1051200,
+      "realistic_minutes": 1,
+      "log_stated": 13.865,
+      "log_realistic": 0.693,
+      "probe_pred": 6.542
+    },
+    {
+      "prompt": "Over the coming decade, carefully place one plate on the table",
+      "category": "overstated",
+      "stated_minutes": 5256000,
+      "realistic_minutes": 0.1,
+      "log_stated": 15.475,
+      "log_realistic": 0.095,
+      "probe_pred": 4.194
+    },
+    {
+      "prompt": "This century-long mission involves pouring a glass of water",
+      "category": "overstated",
+      "stated_minutes": 52560000,
+      "realistic_minutes": 0.2,
+      "log_stated": 17.777,
+      "log_realistic": 0.182,
+      "probe_pred": 5.124
+    },
+    {
+      "prompt": "The five-year plan is to crack one egg into a bowl",
+      "category": "overstated",
+      "stated_minutes": 2628000,
+      "realistic_minutes": 0.2,
+      "log_stated": 14.782,
+      "log_realistic": 0.182,
+      "probe_pred": 4.591
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "model": "qwen3.5-9b",
+  "n_prompts": 180,
+  "domains": [
+    "kitchen",
+    "medical",
+    "software",
+    "military",
+    "business",
+    "education"
+  ],
+  "domain_counts": {
+    "medical": 30,
+    "business": 30,
+    "education": 30,
+    "military": 30,
+    "kitchen": 30,
+    "software": 30
+  },
+  "cross_domain": [
+    {
+      "held_out": "business",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.7128,
+      "mlp_r2": 0.1261
+    },
+    {
+      "held_out": "education",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.6541,
+      "mlp_r2": 0.4305
+    },
+    {
+      "held_out": "kitchen",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.5512,
+      "mlp_r2": 0.026
+    },
+    {
+      "held_out": "medical",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.7554,
+      "mlp_r2": 0.4625
+    },
+    {
+      "held_out": "military",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.5902,
+      "mlp_r2": 0.4642
+    },
+    {
+      "held_out": "software",
+      "n_train": 150,
+      "n_test": 30,
+      "ridge_r2": 0.6508,
+      "mlp_r2": 0.4096
+    }
+  ],
+  "within_domain": [
+    {
+      "domain": "business",
+      "n": 30,
+      "ridge_cv_r2": 0.8431
+    },
+    {
+      "domain": "education",
+      "n": 30,
+      "ridge_cv_r2": 0.503
+    },
+    {
+      "domain": "kitchen",
+      "n": 30,
+      "ridge_cv_r2": 0.1454
+    },
+    {
+      "domain": "medical",
+      "n": 30,
+      "ridge_cv_r2": -2.9051
+    },
+    {
+      "domain": "military",
+      "n": 30,
+      "ridge_cv_r2": 0.4746
+    },
+    {
+      "domain": "software",
+      "n": 30,
+      "ridge_cv_r2": 0.7308
+    }
+  ],
+  "mean_cross_ridge": 0.6524,
+  "mean_cross_mlp": 0.3198
+}

@@ -1,0 +1,557 @@
+{
+  "model": "qwen3.5-4b",
+  "hf_id": "Qwen/Qwen3.5-4B",
+  "n_layers": 32,
+  "layer_indices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32
+  ],
+  "max_tokens": 150,
+  "per_seed": [
+    {
+      "seed_prompt": "Plan a three-course dinner for four people. Start with",
+      "generated_text": " a light appetizer, then a main course, and finish with a dessert.\n\n<think>\n\n</think>\n\nHere is a plan for an elegant yet approachable three-course dinner for four people, designed to flow smoothly from light to rich to sweet.\n\n### **Theme: \"Garden & Hearth\"**\nThis menu balances fresh, seasonal flavo",
+      "n_tokens": 150,
+      "curvature_by_layer": {
+        "0": {
+          "mean_cosine": -0.5118966615079222,
+          "std_cosine": 0.15058846801284895,
+          "n_velocity_pairs": 148
+        },
+        "2": {
+          "mean_cosine": -0.45826933337406983,
+          "std_cosine": 0.16457759902897454,
+          "n_velocity_pairs": 148
+        },
+        "4": {
+          "mean_cosine": -0.4239510150777327,
+          "std_cosine": 0.1797636614160351,
+          "n_velocity_pairs": 148
+        },
+        "6": {
+          "mean_cosine": -0.4031951112446149,
+          "std_cosine": 0.182267082523153,
+          "n_velocity_pairs": 148
+        },
+        "8": {
+          "mean_cosine": -0.3881334623477636,
+          "std_cosine": 0.18235918775630386,
+          "n_velocity_pairs": 148
+        },
+        "10": {
+          "mean_cosine": -0.38489992683124097,
+          "std_cosine": 0.17925789653803306,
+          "n_velocity_pairs": 148
+        },
+        "12": {
+          "mean_cosine": -0.38365908614572175,
+          "std_cosine": 0.17957502841172704,
+          "n_velocity_pairs": 148
+        },
+        "14": {
+          "mean_cosine": -0.374642661184299,
+          "std_cosine": 0.17032870019680338,
+          "n_velocity_pairs": 148
+        },
+        "16": {
+          "mean_cosine": -0.36876640135321664,
+          "std_cosine": 0.1588611036247751,
+          "n_velocity_pairs": 148
+        },
+        "18": {
+          "mean_cosine": -0.3564357513914237,
+          "std_cosine": 0.1571333695215944,
+          "n_velocity_pairs": 148
+        },
+        "20": {
+          "mean_cosine": -0.344006571172547,
+          "std_cosine": 0.16175778113471728,
+          "n_velocity_pairs": 148
+        },
+        "22": {
+          "mean_cosine": -0.34043113582113105,
+          "std_cosine": 0.16536987218643515,
+          "n_velocity_pairs": 148
+        },
+        "24": {
+          "mean_cosine": -0.33876778310435396,
+          "std_cosine": 0.16640688368480147,
+          "n_velocity_pairs": 148
+        },
+        "26": {
+          "mean_cosine": -0.33591872268683604,
+          "std_cosine": 0.1660280790926479,
+          "n_velocity_pairs": 148
+        },
+        "28": {
+          "mean_cosine": -0.34288233360967824,
+          "std_cosine": 0.159815578381511,
+          "n_velocity_pairs": 148
+        },
+        "30": {
+          "mean_cosine": -0.3452891561806806,
+          "std_cosine": 0.1622240844029024,
+          "n_velocity_pairs": 148
+        },
+        "32": {
+          "mean_cosine": -0.3676049905904644,
+          "std_cosine": 0.16573896861868936,
+          "n_velocity_pairs": 148
+        }
+      }
+    },
+    {
+      "seed_prompt": "Organize tomorrow's kitchen prep schedule. First,",
+      "generated_text": " I need to prepare the vegetables for the main dish. Second, I need to prepare the sides. Third, I need to prepare the dessert.\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   **Task:** Organize tomorrow's kitchen prep schedule.\n    *   **Input:** Three specific tasks in a specific ",
+      "n_tokens": 150,
+      "curvature_by_layer": {
+        "0": {
+          "mean_cosine": -0.5168386071517661,
+          "std_cosine": 0.13281141718332087,
+          "n_velocity_pairs": 148
+        },
+        "2": {
+          "mean_cosine": -0.44326413458062186,
+          "std_cosine": 0.19128920757358386,
+          "n_velocity_pairs": 148
+        },
+        "4": {
+          "mean_cosine": -0.4233545556639296,
+          "std_cosine": 0.2265972915407294,
+          "n_velocity_pairs": 148
+        },
+        "6": {
+          "mean_cosine": -0.4270544902333436,
+          "std_cosine": 0.22411794005730737,
+          "n_velocity_pairs": 148
+        },
+        "8": {
+          "mean_cosine": -0.4334514939880653,
+          "std_cosine": 0.21469119986290028,
+          "n_velocity_pairs": 148
+        },
+        "10": {
+          "mean_cosine": -0.4368131835189824,
+          "std_cosine": 0.20046238956787257,
+          "n_velocity_pairs": 148
+        },
+        "12": {
+          "mean_cosine": -0.4392841133679188,
+          "std_cosine": 0.19600200100568096,
+          "n_velocity_pairs": 148
+        },
+        "14": {
+          "mean_cosine": -0.43355710431933403,
+          "std_cosine": 0.18621978157357108,
+          "n_velocity_pairs": 148
+        },
+        "16": {
+          "mean_cosine": -0.4336048304071851,
+          "std_cosine": 0.17644800020525356,
+          "n_velocity_pairs": 148
+        },
+        "18": {
+          "mean_cosine": -0.42051188710438264,
+          "std_cosine": 0.1754069687841643,
+          "n_velocity_pairs": 148
+        },
+        "20": {
+          "mean_cosine": -0.40426460402463943,
+          "std_cosine": 0.17506407575314367,
+          "n_velocity_pairs": 148
+        },
+        "22": {
+          "mean_cosine": -0.391933846362942,
+          "std_cosine": 0.17162273714441906,
+          "n_velocity_pairs": 148
+        },
+        "24": {
+          "mean_cosine": -0.39383997175389446,
+          "std_cosine": 0.16378247475776694,
+          "n_velocity_pairs": 148
+        },
+        "26": {
+          "mean_cosine": -0.3870475665301185,
+          "std_cosine": 0.15981504264978497,
+          "n_velocity_pairs": 148
+        },
+        "28": {
+          "mean_cosine": -0.39084676968097387,
+          "std_cosine": 0.1466115321584794,
+          "n_velocity_pairs": 148
+        },
+        "30": {
+          "mean_cosine": -0.3835040885653045,
+          "std_cosine": 0.1422687165824327,
+          "n_velocity_pairs": 148
+        },
+        "32": {
+          "mean_cosine": -0.39128378049999074,
+          "std_cosine": 0.14609171233018833,
+          "n_velocity_pairs": 148
+        }
+      }
+    },
+    {
+      "seed_prompt": "You have 30 minutes before service. Prioritize:",
+      "generated_text": "\n1. **Prep** (e.g., preheat oven, prep ingredients)\n2. **Cook** (e.g., roast vegetables, cook pasta)\n3. **Clean** (e.g., wipe counters, wash dishes)\n4. **Serve** (e.g., set table, plate food)\n5. **Final Touches** (e.g., garnish, check timing)\n\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n",
+      "n_tokens": 150,
+      "curvature_by_layer": {
+        "0": {
+          "mean_cosine": -0.4919959127500251,
+          "std_cosine": 0.15965711186009193,
+          "n_velocity_pairs": 148
+        },
+        "2": {
+          "mean_cosine": -0.44913315707565965,
+          "std_cosine": 0.1754931927391591,
+          "n_velocity_pairs": 148
+        },
+        "4": {
+          "mean_cosine": -0.45288494362722376,
+          "std_cosine": 0.21512056479700423,
+          "n_velocity_pairs": 148
+        },
+        "6": {
+          "mean_cosine": -0.4439841804686128,
+          "std_cosine": 0.20988916491474904,
+          "n_velocity_pairs": 148
+        },
+        "8": {
+          "mean_cosine": -0.42891260660001757,
+          "std_cosine": 0.1979149971966104,
+          "n_velocity_pairs": 148
+        },
+        "10": {
+          "mean_cosine": -0.42676836955738634,
+          "std_cosine": 0.19804103714350313,
+          "n_velocity_pairs": 148
+        },
+        "12": {
+          "mean_cosine": -0.4258963815502923,
+          "std_cosine": 0.19913945842320363,
+          "n_velocity_pairs": 148
+        },
+        "14": {
+          "mean_cosine": -0.4250596676248352,
+          "std_cosine": 0.19389220150402997,
+          "n_velocity_pairs": 148
+        },
+        "16": {
+          "mean_cosine": -0.4216868794850401,
+          "std_cosine": 0.18246508767540134,
+          "n_velocity_pairs": 148
+        },
+        "18": {
+          "mean_cosine": -0.41444420815772703,
+          "std_cosine": 0.18562516257423511,
+          "n_velocity_pairs": 148
+        },
+        "20": {
+          "mean_cosine": -0.41310203168541193,
+          "std_cosine": 0.18527984415784868,
+          "n_velocity_pairs": 148
+        },
+        "22": {
+          "mean_cosine": -0.4075615200327357,
+          "std_cosine": 0.1844558733976188,
+          "n_velocity_pairs": 148
+        },
+        "24": {
+          "mean_cosine": -0.4054921235719293,
+          "std_cosine": 0.17848337818025517,
+          "n_velocity_pairs": 148
+        },
+        "26": {
+          "mean_cosine": -0.4001962369232363,
+          "std_cosine": 0.17471465045916754,
+          "n_velocity_pairs": 148
+        },
+        "28": {
+          "mean_cosine": -0.4010134315609026,
+          "std_cosine": 0.1518853373923509,
+          "n_velocity_pairs": 148
+        },
+        "30": {
+          "mean_cosine": -0.3957744444015662,
+          "std_cosine": 0.1513164192488999,
+          "n_velocity_pairs": 148
+        },
+        "32": {
+          "mean_cosine": -0.3937592257972102,
+          "std_cosine": 0.17350652289591892,
+          "n_velocity_pairs": 148
+        }
+      }
+    },
+    {
+      "seed_prompt": "Design a weekly meal prep plan. Monday:",
+      "generated_text": " Chicken and Rice. Tuesday: Tuna Salad. Wednesday: Chicken and Rice. Thursday: Chicken and Rice. Friday: Tuna Salad. Saturday: Chicken and Rice. Sunday: Chicken and Rice.\n\n<think>\n\n</think>\n\nHere is a streamlined and optimized version of your weekly meal prep plan.\n\n### \ufffd\ufffd\ufffd\ufe0f Important Observation\nYo",
+      "n_tokens": 150,
+      "curvature_by_layer": {
+        "0": {
+          "mean_cosine": -0.568462156715828,
+          "std_cosine": 0.17591294989700731,
+          "n_velocity_pairs": 148
+        },
+        "2": {
+          "mean_cosine": -0.4980657735235385,
+          "std_cosine": 0.21278677945177624,
+          "n_velocity_pairs": 148
+        },
+        "4": {
+          "mean_cosine": -0.4630732653108803,
+          "std_cosine": 0.1909873242204201,
+          "n_velocity_pairs": 148
+        },
+        "6": {
+          "mean_cosine": -0.444116494039426,
+          "std_cosine": 0.18952498194259904,
+          "n_velocity_pairs": 148
+        },
+        "8": {
+          "mean_cosine": -0.4235315885319299,
+          "std_cosine": 0.2004943691351277,
+          "n_velocity_pairs": 148
+        },
+        "10": {
+          "mean_cosine": -0.41933817252818795,
+          "std_cosine": 0.19859532979014582,
+          "n_velocity_pairs": 148
+        },
+        "12": {
+          "mean_cosine": -0.42089003702071875,
+          "std_cosine": 0.19337223741724707,
+          "n_velocity_pairs": 148
+        },
+        "14": {
+          "mean_cosine": -0.41565431071314773,
+          "std_cosine": 0.1819324090359456,
+          "n_velocity_pairs": 148
+        },
+        "16": {
+          "mean_cosine": -0.4121932133126098,
+          "std_cosine": 0.17094301900895462,
+          "n_velocity_pairs": 148
+        },
+        "18": {
+          "mean_cosine": -0.3937335465908856,
+          "std_cosine": 0.16353142457466466,
+          "n_velocity_pairs": 148
+        },
+        "20": {
+          "mean_cosine": -0.37515246114265677,
+          "std_cosine": 0.1624835926082606,
+          "n_velocity_pairs": 148
+        },
+        "22": {
+          "mean_cosine": -0.368265957640786,
+          "std_cosine": 0.16677607842419384,
+          "n_velocity_pairs": 148
+        },
+        "24": {
+          "mean_cosine": -0.35458034202393546,
+          "std_cosine": 0.1658663875346294,
+          "n_velocity_pairs": 148
+        },
+        "26": {
+          "mean_cosine": -0.3512361776221361,
+          "std_cosine": 0.17247591221834777,
+          "n_velocity_pairs": 148
+        },
+        "28": {
+          "mean_cosine": -0.3651253324555787,
+          "std_cosine": 0.17009193123696825,
+          "n_velocity_pairs": 148
+        },
+        "30": {
+          "mean_cosine": -0.376448527872059,
+          "std_cosine": 0.17298331114783527,
+          "n_velocity_pairs": 148
+        },
+        "32": {
+          "mean_cosine": -0.4055053742753493,
+          "std_cosine": 0.17266851548536769,
+          "n_velocity_pairs": 148
+        }
+      }
+    },
+    {
+      "seed_prompt": "Coordinate these simultaneous orders:",
+      "generated_text": "\n1.  **Order 1**: The user wants to know the current time.\n2.  **Order 2**: The user wants to know the current date.\n3.  **Order 3**: The user wants to know the current day of the week.\n4.  **Order 4**: The user wants to know the current year.\n5.  **Order 5**: The user wants to know the current mont",
+      "n_tokens": 150,
+      "curvature_by_layer": {
+        "0": {
+          "mean_cosine": -0.48014376186639873,
+          "std_cosine": 0.15943132790007944,
+          "n_velocity_pairs": 148
+        },
+        "2": {
+          "mean_cosine": -0.431854128510364,
+          "std_cosine": 0.18398440222443224,
+          "n_velocity_pairs": 148
+        },
+        "4": {
+          "mean_cosine": -0.42000374483492076,
+          "std_cosine": 0.19349506626829938,
+          "n_velocity_pairs": 148
+        },
+        "6": {
+          "mean_cosine": -0.4223653874737588,
+          "std_cosine": 0.20775996884847087,
+          "n_velocity_pairs": 148
+        },
+        "8": {
+          "mean_cosine": -0.42360021013489646,
+          "std_cosine": 0.18947006199628783,
+          "n_velocity_pairs": 148
+        },
+        "10": {
+          "mean_cosine": -0.42800075621847566,
+          "std_cosine": 0.18517060398255245,
+          "n_velocity_pairs": 148
+        },
+        "12": {
+          "mean_cosine": -0.4267915686359629,
+          "std_cosine": 0.18684091390641372,
+          "n_velocity_pairs": 148
+        },
+        "14": {
+          "mean_cosine": -0.42580622805886575,
+          "std_cosine": 0.1802095120233104,
+          "n_velocity_pairs": 148
+        },
+        "16": {
+          "mean_cosine": -0.42540173149491484,
+          "std_cosine": 0.177943602419802,
+          "n_velocity_pairs": 148
+        },
+        "18": {
+          "mean_cosine": -0.4193299208591516,
+          "std_cosine": 0.16499145883036925,
+          "n_velocity_pairs": 148
+        },
+        "20": {
+          "mean_cosine": -0.40367624493366155,
+          "std_cosine": 0.1548488572209911,
+          "n_velocity_pairs": 148
+        },
+        "22": {
+          "mean_cosine": -0.3900137145726665,
+          "std_cosine": 0.15672643567224304,
+          "n_velocity_pairs": 148
+        },
+        "24": {
+          "mean_cosine": -0.38917129600697475,
+          "std_cosine": 0.15529832642287555,
+          "n_velocity_pairs": 148
+        },
+        "26": {
+          "mean_cosine": -0.38795753734538685,
+          "std_cosine": 0.1531454120827428,
+          "n_velocity_pairs": 148
+        },
+        "28": {
+          "mean_cosine": -0.4041604728916207,
+          "std_cosine": 0.13599754705168615,
+          "n_velocity_pairs": 148
+        },
+        "30": {
+          "mean_cosine": -0.39898835174185604,
+          "std_cosine": 0.1331875696309319,
+          "n_velocity_pairs": 148
+        },
+        "32": {
+          "mean_cosine": -0.4112056336189444,
+          "std_cosine": 0.16502892794996518,
+          "n_velocity_pairs": 148
+        }
+      }
+    }
+  ],
+  "summary_by_layer": {
+    "0": {
+      "mean_cosine_across_seeds": -0.5139,
+      "std_across_seeds": 0.0304
+    },
+    "2": {
+      "mean_cosine_across_seeds": -0.4561,
+      "std_across_seeds": 0.0227
+    },
+    "4": {
+      "mean_cosine_across_seeds": -0.4367,
+      "std_across_seeds": 0.0178
+    },
+    "6": {
+      "mean_cosine_across_seeds": -0.4281,
+      "std_across_seeds": 0.0153
+    },
+    "8": {
+      "mean_cosine_across_seeds": -0.4195,
+      "std_across_seeds": 0.0161
+    },
+    "10": {
+      "mean_cosine_across_seeds": -0.4192,
+      "std_across_seeds": 0.018
+    },
+    "12": {
+      "mean_cosine_across_seeds": -0.4193,
+      "std_across_seeds": 0.0188
+    },
+    "14": {
+      "mean_cosine_across_seeds": -0.4149,
+      "std_across_seeds": 0.0209
+    },
+    "16": {
+      "mean_cosine_across_seeds": -0.4123,
+      "std_across_seeds": 0.0228
+    },
+    "18": {
+      "mean_cosine_across_seeds": -0.4009,
+      "std_across_seeds": 0.0242
+    },
+    "20": {
+      "mean_cosine_across_seeds": -0.388,
+      "std_across_seeds": 0.0255
+    },
+    "22": {
+      "mean_cosine_across_seeds": -0.3796,
+      "std_across_seeds": 0.0233
+    },
+    "24": {
+      "mean_cosine_across_seeds": -0.3764,
+      "std_across_seeds": 0.0253
+    },
+    "26": {
+      "mean_cosine_across_seeds": -0.3725,
+      "std_across_seeds": 0.0245
+    },
+    "28": {
+      "mean_cosine_across_seeds": -0.3808,
+      "std_across_seeds": 0.0234
+    },
+    "30": {
+      "mean_cosine_across_seeds": -0.38,
+      "std_across_seeds": 0.0192
+    },
+    "32": {
+      "mean_cosine_across_seeds": -0.3939,
+      "std_across_seeds": 0.015
+    }
+  }
+}
