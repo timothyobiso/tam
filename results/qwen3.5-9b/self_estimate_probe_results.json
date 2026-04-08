@@ -1,0 +1,15 @@
+{
+  "model": "qwen3.5-9b",
+  "n_valid": 495,
+  "generation_accuracy": {
+    "r": 0.5459,
+    "p": 8.615353281545081e-40
+  },
+  "r2_residual_model_estimate": 0.3337,
+  "r2_model_error": 0.2118,
+  "correlation_chain": {
+    "probe_to_model": 0.8733,
+    "probe_to_real": 0.6367,
+    "model_to_real": 0.5459
+  }
+}

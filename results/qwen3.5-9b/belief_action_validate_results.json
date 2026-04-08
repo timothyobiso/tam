@@ -1,0 +1,716 @@
+{
+  "model": "qwen3.5-9b",
+  "position_bias": {
+    "results": [
+      {
+        "stem": "The chef must choose between:",
+        "category": "explicit",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.3074,
+        "swap_gap": 0.3074,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "The restaurant owner must decide:",
+        "category": "explicit",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.0299,
+        "swap_gap": 0.0299,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "When the kitchen equipment breaks, the team should",
+        "category": "explicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.1588,
+        "swap_gap": 1.1588,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The head chef must choose between:",
+        "category": "explicit",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.2689,
+        "swap_gap": 0.2689,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "For the struggling restaurant, the priority should",
+        "category": "explicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.1676,
+        "swap_gap": 0.1676,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The sous chef has a conflict with another cook. Th",
+        "category": "explicit",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.5627,
+        "swap_gap": 0.5627,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "With a limited budget, the restaurant should:",
+        "category": "explicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.5904,
+        "swap_gap": 0.5904,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The new chef should focus on:",
+        "category": "explicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.5542,
+        "swap_gap": 0.5542,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The best approach to a customer complaint is:",
+        "category": "implicit",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.4323,
+        "swap_gap": 0.4323,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "When a talented cook makes a mistake, the head che",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.1453,
+        "swap_gap": 1.1453,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The best way to handle a suddenly popular dish is:",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.3362,
+        "swap_gap": 1.3362,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "When offered a shortcut that might compromise food",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.4624,
+        "swap_gap": 1.4624,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The restaurant's approach to hiring should be:",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.1402,
+        "swap_gap": 0.1402,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "When a competitor opens nearby, the best response ",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.1292,
+        "swap_gap": 0.1292,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The chef's approach to a new technique should be:",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.5852,
+        "swap_gap": 1.5852,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "When the restaurant has a great month, the owner s",
+        "category": "implicit",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.038,
+        "swap_gap": 0.038,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The software team must choose between:",
+        "category": "cross_domain",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.1939,
+        "swap_gap": 0.1939,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The doctor recommends:",
+        "category": "cross_domain",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.143,
+        "swap_gap": 1.143,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "For the student struggling in class, the best advi",
+        "category": "cross_domain",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.9566,
+        "swap_gap": 1.9566,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The company should handle the PR crisis by:",
+        "category": "cross_domain",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.2936,
+        "swap_gap": 0.2936,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "The city's approach to the flooding problem should",
+        "category": "cross_domain",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 0.2121,
+        "swap_gap": 0.2121,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "The military commander should:",
+        "category": "cross_domain",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 1.9184,
+        "swap_gap": 1.9184,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      },
+      {
+        "stem": "The investor should:",
+        "category": "cross_domain",
+        "orig_choice": "B",
+        "swap_choice": "A",
+        "orig_gap": 1.7051,
+        "swap_gap": 1.7051,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": true,
+        "swap_chose_long": true
+      },
+      {
+        "stem": "When a colleague takes credit for your work, you s",
+        "category": "cross_domain",
+        "orig_choice": "A",
+        "swap_choice": "B",
+        "orig_gap": 0.4069,
+        "swap_gap": 0.4069,
+        "consistent_content": true,
+        "consistent_position": false,
+        "orig_chose_long": false,
+        "swap_chose_long": false
+      }
+    ],
+    "content_consistency": 1.0,
+    "position_consistency": 0.0,
+    "always_a_rate": 0.0,
+    "n": 24
+  },
+  "logprob_gaps": {
+    "results": [
+      {
+        "stem": "The chef must choose between:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.3074,
+        "lp_a": -2.9082,
+        "lp_b": -2.6008
+      },
+      {
+        "stem": "The restaurant owner must decide:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.0299,
+        "lp_a": -3.7664,
+        "lp_b": -3.7365
+      },
+      {
+        "stem": "When the kitchen equipment breaks, the team should",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.1588,
+        "lp_a": -3.3126,
+        "lp_b": -4.4713
+      },
+      {
+        "stem": "The head chef must choose between:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.2689,
+        "lp_a": -3.6746,
+        "lp_b": -3.4058
+      },
+      {
+        "stem": "For the struggling restaurant, the priority should",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.1676,
+        "lp_a": -2.6386,
+        "lp_b": -2.8061
+      },
+      {
+        "stem": "The sous chef has a conflict with another cook. Th",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.5627,
+        "lp_a": -3.293,
+        "lp_b": -2.7303
+      },
+      {
+        "stem": "With a limited budget, the restaurant should:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.5904,
+        "lp_a": -3.4012,
+        "lp_b": -3.9916
+      },
+      {
+        "stem": "The new chef should focus on:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.5542,
+        "lp_a": -2.8089,
+        "lp_b": -3.3632
+      },
+      {
+        "stem": "The best approach to a customer complaint is:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.4323,
+        "lp_a": -3.2554,
+        "lp_b": -2.8231
+      },
+      {
+        "stem": "When a talented cook makes a mistake, the head che",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.1453,
+        "lp_a": -1.7397,
+        "lp_b": -2.8851
+      },
+      {
+        "stem": "The best way to handle a suddenly popular dish is:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.3362,
+        "lp_a": -2.368,
+        "lp_b": -3.7042
+      },
+      {
+        "stem": "When offered a shortcut that might compromise food",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.4624,
+        "lp_a": -2.3775,
+        "lp_b": -3.8399
+      },
+      {
+        "stem": "The restaurant's approach to hiring should be:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.1402,
+        "lp_a": -2.7262,
+        "lp_b": -2.8663
+      },
+      {
+        "stem": "When a competitor opens nearby, the best response ",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.1292,
+        "lp_a": -2.9639,
+        "lp_b": -3.0931
+      },
+      {
+        "stem": "The chef's approach to a new technique should be:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.5852,
+        "lp_a": -2.3325,
+        "lp_b": -3.9177
+      },
+      {
+        "stem": "When the restaurant has a great month, the owner s",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.038,
+        "lp_a": -3.3974,
+        "lp_b": -3.4353
+      },
+      {
+        "stem": "The software team must choose between:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.1939,
+        "lp_a": -2.8835,
+        "lp_b": -3.0774
+      },
+      {
+        "stem": "The doctor recommends:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.143,
+        "lp_a": -3.2869,
+        "lp_b": -4.43
+      },
+      {
+        "stem": "For the student struggling in class, the best advi",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.9566,
+        "lp_a": -2.1675,
+        "lp_b": -4.1241
+      },
+      {
+        "stem": "The company should handle the PR crisis by:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.2936,
+        "lp_a": -3.1169,
+        "lp_b": -2.8234
+      },
+      {
+        "stem": "The city's approach to the flooding problem should",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 0.2121,
+        "lp_a": -3.564,
+        "lp_b": -3.3518
+      },
+      {
+        "stem": "The military commander should:",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 1.9184,
+        "lp_a": -3.0399,
+        "lp_b": -4.9583
+      },
+      {
+        "stem": "The investor should:",
+        "choice": "B",
+        "gt_long": "B",
+        "chose_long": true,
+        "gap": 1.7051,
+        "lp_a": -4.2134,
+        "lp_b": -2.5083
+      },
+      {
+        "stem": "When a colleague takes credit for your work, you s",
+        "choice": "A",
+        "gt_long": "B",
+        "chose_long": false,
+        "gap": 0.4069,
+        "lp_a": -2.2436,
+        "lp_b": -2.6506
+      }
+    ],
+    "mean_gap_overall": 0.7391,
+    "mean_gap_when_wrong": 0.8704,
+    "mean_gap_when_right": 0.4765,
+    "n_confident_wrong": 15,
+    "n_marginal_wrong": 1
+  },
+  "freeform": {
+    "results": [
+      {
+        "stem": "The chef must choose between:",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "B",
+        "chose_long": true,
+        "text": "\n\n**Answer: B) Wait 10 more minutes to ensure the dish is perfectly cooked.**\n\n**Reasoning:**\n\n1.  **Food Safety:** Serving undercooked food poses significant health risks. Depending on the type of dish, undercooked meat, poultry, or seafood can harbor harmful bacteria (such as Salmonella, E. coli, "
+      },
+      {
+        "stem": "The restaurant owner must decide:",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "B",
+        "chose_long": true,
+        "text": "\n\n**Answer: B) Invest in staff training to improve revenue over the next year**\n\n**Reasoning:**\n\n1.  **Long-Term Profitability vs. Short-Term Savings:** While cutting staff (Option A) provides immediate relief to the monthly budget, it often leads to a decline in service quality, slower table turnov"
+      },
+      {
+        "stem": "When the kitchen equipment breaks, the team should",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "unclear",
+        "chose_long": false,
+        "text": "\n\n**Answer: A**\n\n**Reasoning:**\nIn a professional kitchen environment, the primary goal during service is to ensure food safety and customer satisfaction.\n\n1.  **Customer Experience:** If the equipment breaks during service, shutting down the station (Option B) means the kitchen cannot fulfill order"
+      },
+      {
+        "stem": "The head chef must choose between:",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "B",
+        "chose_long": true,
+        "text": "\n\n**Answer: B) Test the recipe for two weeks and refine it before launching**\n\n**Reasoning:**\n\n1.  **Reputation Management:** A head chef's primary asset is the restaurant's reputation. Serving a flawed or unrefined dish risks negative reviews, which can take months to repair. It is better to launch"
+      },
+      {
+        "stem": "For the struggling restaurant, the priority should",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "B",
+        "chose_long": true,
+        "text": "\n\n**Answer: B) Develop a six-month marketing strategy to build a loyal customer base**\n\n**Reasoning:**\n\nWhile a flash sale (Option A) might generate immediate revenue, it is a short-term fix that often attracts price-sensitive customers who will not return once the discount ends. For a struggling re"
+      },
+      {
+        "stem": "The sous chef has a conflict with another cook. Th",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "unclear",
+        "chose_long": false,
+        "text": "\n\n**Answer: B**\n\n**Reasoning:**\n\n1.  **De-escalation:** In a high-pressure kitchen environment, an aggressive confrontation (Option A) often leads to shouting matches, loss of control, and further damage to the team's morale. It rarely resolves the root cause of a conflict and can result in discipli"
+      },
+      {
+        "stem": "With a limited budget, the restaurant should:",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "B",
+        "chose_long": true,
+        "text": "\n\n**Answer: B) Establish relationships with local farms for better pricing over time**\n\n**Reasoning:**\n\nWhile Option A offers an immediate reduction in costs, it is a short-term strategy that often leads to long-term failure for a restaurant. Here is why Option B is the superior choice for a limited"
+      },
+      {
+        "stem": "The new chef should focus on:",
+        "category": "explicit",
+        "gt_long": "B",
+        "gen_choice": "unclear",
+        "chose_long": false,
+        "text": "\n\n**Answer: B**\n\n**Reasoning:**\n\n1.  **Sustainability vs. Short-term Gain:** While a flashy dish (Option A) might generate immediate excitement, it is often unsustainable. If the dish relies on ingredients not available in the kitchen's standard inventory or requires techniques the staff isn't train"
+      }
+    ],
+    "n_clear": 5,
+    "n_long": 5,
+    "acc_gt": 1.0
+  },
+  "multilayer": {
+    "0": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.5417,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    },
+    "2": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.5417,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    },
+    "4": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.7917,
+      "recovery": 0.25,
+      "n_wrong": 16
+    },
+    "6": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.375,
+      "agreement": 0.7083,
+      "recovery": 0.25,
+      "n_wrong": 16
+    },
+    "8": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.625,
+      "recovery": 0.375,
+      "n_wrong": 16
+    },
+    "10": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.7083,
+      "recovery": 0.3125,
+      "n_wrong": 16
+    },
+    "12": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5,
+      "agreement": 0.6667,
+      "recovery": 0.375,
+      "n_wrong": 16
+    },
+    "14": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.375,
+      "agreement": 0.7917,
+      "recovery": 0.1875,
+      "n_wrong": 16
+    },
+    "16": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5,
+      "agreement": 0.75,
+      "recovery": 0.3125,
+      "n_wrong": 16
+    },
+    "18": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.3333,
+      "agreement": 0.5833,
+      "recovery": 0.3125,
+      "n_wrong": 16
+    },
+    "20": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4167,
+      "agreement": 0.6667,
+      "recovery": 0.3125,
+      "n_wrong": 16
+    },
+    "22": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4167,
+      "agreement": 0.5833,
+      "recovery": 0.375,
+      "n_wrong": 16
+    },
+    "24": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5,
+      "agreement": 0.6667,
+      "recovery": 0.375,
+      "n_wrong": 16
+    },
+    "26": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.7083,
+      "recovery": 0.3125,
+      "n_wrong": 16
+    },
+    "28": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.4583,
+      "agreement": 0.5417,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    },
+    "30": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5417,
+      "agreement": 0.625,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    },
+    "32": {
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5,
+      "agreement": 0.5833,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    }
+  }
+}

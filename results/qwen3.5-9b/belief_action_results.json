@@ -1,0 +1,617 @@
+{
+  "model": "qwen3.5-9b",
+  "probe_layer": 32,
+  "n_scenarios": 24,
+  "metrics": {
+    "all": {
+      "n": 24,
+      "acc_gt": 0.3333,
+      "acc_dec": 0.5,
+      "agreement": 0.5833,
+      "recovery": 0.4375,
+      "n_wrong": 16
+    },
+    "cross_domain": {
+      "n": 8,
+      "acc_gt": 0.375,
+      "acc_dec": 0.75,
+      "agreement": 0.625,
+      "recovery": 0.6,
+      "n_wrong": 5
+    },
+    "explicit": {
+      "n": 8,
+      "acc_gt": 0.5,
+      "acc_dec": 0.25,
+      "agreement": 0.5,
+      "recovery": 0.25,
+      "n_wrong": 4
+    },
+    "implicit": {
+      "n": 8,
+      "acc_gt": 0.125,
+      "acc_dec": 0.5,
+      "agreement": 0.625,
+      "recovery": 0.4286,
+      "n_wrong": 7
+    }
+  },
+  "results": [
+    {
+      "stem": "The chef must choose between:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -40.7153,
+          "avg_logprob": -2.9082,
+          "n_tokens": 14,
+          "probe_pred": 3.6441
+        },
+        "B": {
+          "total_logprob": -39.0125,
+          "avg_logprob": -2.6008,
+          "n_tokens": 15,
+          "probe_pred": 3.2734
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": false,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The restaurant owner must decide:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -37.6644,
+          "avg_logprob": -3.7664,
+          "n_tokens": 10,
+          "probe_pred": 7.4893
+        },
+        "B": {
+          "total_logprob": -48.5745,
+          "avg_logprob": -3.7365,
+          "n_tokens": 13,
+          "probe_pred": 7.3546
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": false,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "When the kitchen equipment breaks, the team should:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -43.0633,
+          "avg_logprob": -3.3126,
+          "n_tokens": 13,
+          "probe_pred": 5.1886
+        },
+        "B": {
+          "total_logprob": -62.5988,
+          "avg_logprob": -4.4713,
+          "n_tokens": 14,
+          "probe_pred": 5.3539
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The head chef must choose between:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -47.7702,
+          "avg_logprob": -3.6746,
+          "n_tokens": 13,
+          "probe_pred": 6.1514
+        },
+        "B": {
+          "total_logprob": -44.2751,
+          "avg_logprob": -3.4058,
+          "n_tokens": 13,
+          "probe_pred": 5.9408
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": false,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "For the struggling restaurant, the priority should be:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -34.3013,
+          "avg_logprob": -2.6386,
+          "n_tokens": 13,
+          "probe_pred": 5.9594
+        },
+        "B": {
+          "total_logprob": -39.2857,
+          "avg_logprob": -2.8061,
+          "n_tokens": 14,
+          "probe_pred": 10.277
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The sous chef has a conflict with another cook. They should:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -36.2231,
+          "avg_logprob": -3.293,
+          "n_tokens": 11,
+          "probe_pred": 5.1412
+        },
+        "B": {
+          "total_logprob": -35.4943,
+          "avg_logprob": -2.7303,
+          "n_tokens": 13,
+          "probe_pred": 6.0945
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": true,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "With a limited budget, the restaurant should:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -27.2096,
+          "avg_logprob": -3.4012,
+          "n_tokens": 8,
+          "probe_pred": 7.239
+        },
+        "B": {
+          "total_logprob": -47.8997,
+          "avg_logprob": -3.9916,
+          "n_tokens": 12,
+          "probe_pred": 7.57
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The new chef should focus on:",
+      "category": "explicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -39.325,
+          "avg_logprob": -2.8089,
+          "n_tokens": 14,
+          "probe_pred": 6.5605
+        },
+        "B": {
+          "total_logprob": -47.0843,
+          "avg_logprob": -3.3632,
+          "n_tokens": 14,
+          "probe_pred": 5.9562
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The best approach to a customer complaint is:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -35.8098,
+          "avg_logprob": -3.2554,
+          "n_tokens": 11,
+          "probe_pred": 4.9612
+        },
+        "B": {
+          "total_logprob": -42.3472,
+          "avg_logprob": -2.8231,
+          "n_tokens": 15,
+          "probe_pred": 6.4687
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": true,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "When a talented cook makes a mistake, the head chef should:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -31.3149,
+          "avg_logprob": -1.7397,
+          "n_tokens": 18,
+          "probe_pred": 5.8433
+        },
+        "B": {
+          "total_logprob": -34.6206,
+          "avg_logprob": -2.8851,
+          "n_tokens": 12,
+          "probe_pred": 5.2631
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The best way to handle a suddenly popular dish is:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -26.0484,
+          "avg_logprob": -2.368,
+          "n_tokens": 11,
+          "probe_pred": 6.9331
+        },
+        "B": {
+          "total_logprob": -51.8591,
+          "avg_logprob": -3.7042,
+          "n_tokens": 14,
+          "probe_pred": 8.1666
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "When offered a shortcut that might compromise food safety, the chef should:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -30.9075,
+          "avg_logprob": -2.3775,
+          "n_tokens": 13,
+          "probe_pred": 5.9296
+        },
+        "B": {
+          "total_logprob": -42.2393,
+          "avg_logprob": -3.8399,
+          "n_tokens": 11,
+          "probe_pred": 2.7513
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The restaurant's approach to hiring should be:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -32.7139,
+          "avg_logprob": -2.7262,
+          "n_tokens": 12,
+          "probe_pred": 5.927
+        },
+        "B": {
+          "total_logprob": -45.8616,
+          "avg_logprob": -2.8663,
+          "n_tokens": 16,
+          "probe_pred": 7.28
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "When a competitor opens nearby, the best response is:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -29.639,
+          "avg_logprob": -2.9639,
+          "n_tokens": 10,
+          "probe_pred": 5.6171
+        },
+        "B": {
+          "total_logprob": -43.3035,
+          "avg_logprob": -3.0931,
+          "n_tokens": 14,
+          "probe_pred": 6.7311
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The chef's approach to a new technique should be:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -30.3229,
+          "avg_logprob": -2.3325,
+          "n_tokens": 13,
+          "probe_pred": 5.6243
+        },
+        "B": {
+          "total_logprob": -43.0946,
+          "avg_logprob": -3.9177,
+          "n_tokens": 11,
+          "probe_pred": 5.1383
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "When the restaurant has a great month, the owner should:",
+      "category": "implicit",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -30.5764,
+          "avg_logprob": -3.3974,
+          "n_tokens": 9,
+          "probe_pred": 6.9884
+        },
+        "B": {
+          "total_logprob": -41.2241,
+          "avg_logprob": -3.4353,
+          "n_tokens": 12,
+          "probe_pred": 7.6223
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The software team must choose between:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -43.253,
+          "avg_logprob": -2.8835,
+          "n_tokens": 15,
+          "probe_pred": 7.93
+        },
+        "B": {
+          "total_logprob": -49.2385,
+          "avg_logprob": -3.0774,
+          "n_tokens": 16,
+          "probe_pred": 6.6399
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The doctor recommends:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -36.1561,
+          "avg_logprob": -3.2869,
+          "n_tokens": 11,
+          "probe_pred": 6.3759
+        },
+        "B": {
+          "total_logprob": -62.0194,
+          "avg_logprob": -4.43,
+          "n_tokens": 14,
+          "probe_pred": 5.3343
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "For the student struggling in class, the best advice is:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -30.3457,
+          "avg_logprob": -2.1675,
+          "n_tokens": 14,
+          "probe_pred": 7.2734
+        },
+        "B": {
+          "total_logprob": -37.1173,
+          "avg_logprob": -4.1241,
+          "n_tokens": 9,
+          "probe_pred": 8.4283
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The company should handle the PR crisis by:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -34.2864,
+          "avg_logprob": -3.1169,
+          "n_tokens": 11,
+          "probe_pred": 6.5078
+        },
+        "B": {
+          "total_logprob": -33.8807,
+          "avg_logprob": -2.8234,
+          "n_tokens": 12,
+          "probe_pred": 9.222
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": true,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The city's approach to the flooding problem should be:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -35.6397,
+          "avg_logprob": -3.564,
+          "n_tokens": 10,
+          "probe_pred": 7.6658
+        },
+        "B": {
+          "total_logprob": -40.2221,
+          "avg_logprob": -3.3518,
+          "n_tokens": 12,
+          "probe_pred": 9.0266
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": true,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "The military commander should:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "A",
+      "logprobs": {
+        "A": {
+          "total_logprob": -27.359,
+          "avg_logprob": -3.0399,
+          "n_tokens": 9,
+          "probe_pred": 6.752
+        },
+        "B": {
+          "total_logprob": -54.5416,
+          "avg_logprob": -4.9583,
+          "n_tokens": 11,
+          "probe_pred": 5.63
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": true,
+      "probe_matches_gt": false
+    },
+    {
+      "stem": "The investor should:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "B",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -50.5606,
+          "avg_logprob": -4.2134,
+          "n_tokens": 12,
+          "probe_pred": 7.4276
+        },
+        "B": {
+          "total_logprob": -30.0996,
+          "avg_logprob": -2.5083,
+          "n_tokens": 12,
+          "probe_pred": 8.0892
+        }
+      },
+      "choice_matches_gt": true,
+      "choice_matches_probe": true,
+      "probe_matches_gt": true
+    },
+    {
+      "stem": "When a colleague takes credit for your work, you should:",
+      "category": "cross_domain",
+      "gt_long": "B",
+      "model_choice": "A",
+      "probe_belief": "B",
+      "logprobs": {
+        "A": {
+          "total_logprob": -24.6797,
+          "avg_logprob": -2.2436,
+          "n_tokens": 11,
+          "probe_pred": 5.8119
+        },
+        "B": {
+          "total_logprob": -31.8066,
+          "avg_logprob": -2.6506,
+          "n_tokens": 12,
+          "probe_pred": 5.9835
+        }
+      },
+      "choice_matches_gt": false,
+      "choice_matches_probe": false,
+      "probe_matches_gt": true
+    }
+  ]
+}

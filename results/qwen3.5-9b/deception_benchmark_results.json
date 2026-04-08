@@ -1,0 +1,575 @@
+{
+  "model": "qwen3.5-9b",
+  "benchmark": "SDMN2001/recipe_difficulties",
+  "n_recipes": 200,
+  "analysis": {
+    "bare_vs_real": {
+      "r": -0.024,
+      "p": 0.735818
+    },
+    "honest_vs_real": {
+      "r": 0.0957,
+      "p": 0.177819
+    },
+    "misleading_vs_real": {
+      "r": -0.4232,
+      "p": 0.0
+    },
+    "misleading_vs_stated": {
+      "r": 0.4804,
+      "p": 0.0
+    }
+  },
+  "results": [
+    {
+      "title": "Five-Ingredient Grilled Asparagus with Pecorino and Pine Nuts",
+      "time_bin": "quick",
+      "real_minutes": 15,
+      "log_real": 2.772588722239781,
+      "stated_misleading": 240,
+      "log_stated_misleading": 5.484796933490655,
+      "pred_bare": 4.0298,
+      "pred_honest": 3.8326,
+      "pred_misleading": 4.0538
+    },
+    {
+      "title": "Indian Pudding",
+      "time_bin": "long",
+      "real_minutes": 165,
+      "log_real": 5.111987788356544,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.0786,
+      "pred_honest": 2.8449,
+      "pred_misleading": 2.3754
+    },
+    {
+      "title": "Endless Summer",
+      "time_bin": "quick",
+      "real_minutes": 5,
+      "log_real": 1.791759469228055,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.4126,
+      "pred_honest": 2.308,
+      "pred_misleading": 2.6359
+    },
+    {
+      "title": "Seared Scallops with Caper, Shiitake and Green Onion Relish",
+      "time_bin": "very_long",
+      "real_minutes": 545,
+      "log_real": 6.302618975744905,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.8446,
+      "pred_honest": 2.994,
+      "pred_misleading": 3.3034
+    },
+    {
+      "title": "Sauce Espagnole",
+      "time_bin": "long",
+      "real_minutes": 75,
+      "log_real": 4.330733340286331,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.6448,
+      "pred_honest": 2.6718,
+      "pred_misleading": 2.4725
+    },
+    {
+      "title": "Mexican Hot Chocolate Layer Cake with Cream Cheese Frosting",
+      "time_bin": "long",
+      "real_minutes": 115,
+      "log_real": 4.7535901911063645,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.4127,
+      "pred_honest": 2.9562,
+      "pred_misleading": 2.6487
+    },
+    {
+      "title": "Marcela's Guacamole",
+      "time_bin": "quick",
+      "real_minutes": 5,
+      "log_real": 1.791759469228055,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 3.2325,
+      "pred_honest": 3.1163,
+      "pred_misleading": 3.2257
+    },
+    {
+      "title": "Tang Jai Jook",
+      "time_bin": "very_long",
+      "real_minutes": 555,
+      "log_real": 6.320768294250582,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.7571,
+      "pred_honest": 2.8248,
+      "pred_misleading": 2.4877
+    },
+    {
+      "title": "Carrie's Grit Cakes with Rosanne's Gravy",
+      "time_bin": "medium",
+      "real_minutes": 25,
+      "log_real": 3.258096538021482,
+      "stated_misleading": 2,
+      "log_stated_misleading": 1.0986122886681096,
+      "pred_bare": 2.7039,
+      "pred_honest": 2.1294,
+      "pred_misleading": 1.8642
+    },
+    {
+      "title": "Jicama Black Bean Salad",
+      "time_bin": "quick",
+      "real_minutes": 15,
+      "log_real": 2.772588722239781,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 3.972,
+      "pred_honest": 3.6267,
+      "pred_misleading": 3.6486
+    },
+    {
+      "title": "On Top of Ole Smoky, All Covered with Cheese: Spaghetti and Meatballs",
+      "time_bin": "long",
+      "real_minutes": 105,
+      "log_real": 4.663439094112067,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.2406,
+      "pred_honest": 2.5894,
+      "pred_misleading": 2.2604
+    },
+    {
+      "title": "Harissa BBQ Pulled Jackfruit",
+      "time_bin": "medium",
+      "real_minutes": 20,
+      "log_real": 3.044522437723423,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.4044,
+      "pred_honest": 2.676,
+      "pred_misleading": 2.7006
+    },
+    {
+      "title": "Fusilli with Tomato Pesto",
+      "time_bin": "medium",
+      "real_minutes": 30,
+      "log_real": 3.4339872044851463,
+      "stated_misleading": 2,
+      "log_stated_misleading": 1.0986122886681096,
+      "pred_bare": 3.4716,
+      "pred_honest": 2.9607,
+      "pred_misleading": 2.7299
+    },
+    {
+      "title": "Dark Chocolate Oatmeal",
+      "time_bin": "medium",
+      "real_minutes": 25,
+      "log_real": 3.258096538021482,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.9606,
+      "pred_honest": 3.9406,
+      "pred_misleading": 4.3465
+    },
+    {
+      "title": "Southern-Style Oxtails",
+      "time_bin": "very_long",
+      "real_minutes": 220,
+      "log_real": 5.3981627015177525,
+      "stated_misleading": 15,
+      "log_stated_misleading": 2.772588722239781,
+      "pred_bare": 3.1062,
+      "pred_honest": 3.0749,
+      "pred_misleading": 2.7487
+    },
+    {
+      "title": "Asparagus with Mustard Vinaigrette",
+      "time_bin": "quick",
+      "real_minutes": 10,
+      "log_real": 2.3978952727983707,
+      "stated_misleading": 1440,
+      "log_stated_misleading": 7.273092595999522,
+      "pred_bare": 2.848,
+      "pred_honest": 2.9768,
+      "pred_misleading": 3.5232
+    },
+    {
+      "title": "The Idol",
+      "time_bin": "quick",
+      "real_minutes": 5,
+      "log_real": 1.791759469228055,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.6496,
+      "pred_honest": 2.559,
+      "pred_misleading": 2.9979
+    },
+    {
+      "title": "Teriyaki Grilled Steak Skewers with Chile-Herb Dipping Sauce",
+      "time_bin": "very_long",
+      "real_minutes": 315,
+      "log_real": 5.755742213586912,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.9355,
+      "pred_honest": 3.3214,
+      "pred_misleading": 3.1962
+    },
+    {
+      "title": "Sausage and Veggie Lasagna Rolls",
+      "time_bin": "long",
+      "real_minutes": 85,
+      "log_real": 4.454347296253507,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 2.9956,
+      "pred_honest": 2.2896,
+      "pred_misleading": 2.0107
+    },
+    {
+      "title": "Buttery Herbed Potatoes",
+      "time_bin": "medium",
+      "real_minutes": 50,
+      "log_real": 3.9318256327243257,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.0763,
+      "pred_honest": 3.1819,
+      "pred_misleading": 2.8022
+    },
+    {
+      "title": "Bloody Mary",
+      "time_bin": "quick",
+      "real_minutes": 10,
+      "log_real": 2.3978952727983707,
+      "stated_misleading": 1440,
+      "log_stated_misleading": 7.273092595999522,
+      "pred_bare": 3.1471,
+      "pred_honest": 2.3828,
+      "pred_misleading": 2.9108
+    },
+    {
+      "title": "Moroccan-Spice Burgers",
+      "time_bin": "medium",
+      "real_minutes": 35,
+      "log_real": 3.58351893845611,
+      "stated_misleading": 2,
+      "log_stated_misleading": 1.0986122886681096,
+      "pred_bare": 4.0056,
+      "pred_honest": 2.8516,
+      "pred_misleading": 2.5077
+    },
+    {
+      "title": "Fruit Chips",
+      "time_bin": "very_long",
+      "real_minutes": 190,
+      "log_real": 5.25227342804663,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.3642,
+      "pred_honest": 3.4543,
+      "pred_misleading": 2.9272
+    },
+    {
+      "title": "Key Lime Pie Tartlets",
+      "time_bin": "long",
+      "real_minutes": 135,
+      "log_real": 4.912654885736052,
+      "stated_misleading": 15,
+      "log_stated_misleading": 2.772588722239781,
+      "pred_bare": 2.7984,
+      "pred_honest": 2.7503,
+      "pred_misleading": 2.5222
+    },
+    {
+      "title": "Butternut Squash 3 Ways: Mushroom Ravioli with Brown Butter, Sage and Butternut Squash",
+      "time_bin": "long",
+      "real_minutes": 65,
+      "log_real": 4.189654742026425,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.6693,
+      "pred_honest": 2.7071,
+      "pred_misleading": 2.7372
+    },
+    {
+      "title": "The Disco Biscuit",
+      "time_bin": "very_long",
+      "real_minutes": 645,
+      "log_real": 6.470799503782602,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.0112,
+      "pred_honest": 2.3353,
+      "pred_misleading": 1.8779
+    },
+    {
+      "title": "Stuffed Hasselback Ham",
+      "time_bin": "long",
+      "real_minutes": 140,
+      "log_real": 4.948759890378168,
+      "stated_misleading": 15,
+      "log_stated_misleading": 2.772588722239781,
+      "pred_bare": 3.1505,
+      "pred_honest": 2.7502,
+      "pred_misleading": 2.3764
+    },
+    {
+      "title": "Pear-Cider Cocktails",
+      "time_bin": "quick",
+      "real_minutes": 10,
+      "log_real": 2.3978952727983707,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.7461,
+      "pred_honest": 3.0506,
+      "pred_misleading": 3.3568
+    },
+    {
+      "title": "Brandade with Grilled Sourdough",
+      "time_bin": "very_long",
+      "real_minutes": 810,
+      "log_real": 6.698268054115413,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.2446,
+      "pred_honest": 3.1033,
+      "pred_misleading": 2.7246
+    },
+    {
+      "title": "Portuguese Steak",
+      "time_bin": "very_long",
+      "real_minutes": 525,
+      "log_real": 6.26530121273771,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.0882,
+      "pred_honest": 2.9926,
+      "pred_misleading": 2.6932
+    },
+    {
+      "title": "Sunny's Quick Onion and Garlic Shrimp with Pasta",
+      "time_bin": "medium",
+      "real_minutes": 40,
+      "log_real": 3.713572066704308,
+      "stated_misleading": 2,
+      "log_stated_misleading": 1.0986122886681096,
+      "pred_bare": 2.5796,
+      "pred_honest": 2.0482,
+      "pred_misleading": 1.6958
+    },
+    {
+      "title": "Citrus Pudding Cakes",
+      "time_bin": "long",
+      "real_minutes": 60,
+      "log_real": 4.110873864173311,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 2.8153,
+      "pred_honest": 2.8982,
+      "pred_misleading": 3.5163
+    },
+    {
+      "title": "Turmeric Pork Chops with Baby Bok Choy",
+      "time_bin": "medium",
+      "real_minutes": 35,
+      "log_real": 3.58351893845611,
+      "stated_misleading": 2,
+      "log_stated_misleading": 1.0986122886681096,
+      "pred_bare": 3.8542,
+      "pred_honest": 3.7419,
+      "pred_misleading": 3.4051
+    },
+    {
+      "title": "Chicken Soup with Matzo Balls",
+      "time_bin": "very_long",
+      "real_minutes": 285,
+      "log_real": 5.655991810819852,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.2508,
+      "pred_honest": 2.938,
+      "pred_misleading": 2.4708
+    },
+    {
+      "title": "Grilled Asparagus with Miso Butter",
+      "time_bin": "medium",
+      "real_minutes": 25,
+      "log_real": 3.258096538021482,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.6955,
+      "pred_honest": 3.652,
+      "pred_misleading": 3.3255
+    },
+    {
+      "title": "Slow Cooker Chicken Taco Bowls",
+      "time_bin": "very_long",
+      "real_minutes": 260,
+      "log_real": 5.564520407322694,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 2.7771,
+      "pred_honest": 2.5347,
+      "pred_misleading": 2.1558
+    },
+    {
+      "title": "Smoky Dry-Rubbed Grilled Chicken with Alabama White Sauce",
+      "time_bin": "long",
+      "real_minutes": 100,
+      "log_real": 4.61512051684126,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.8453,
+      "pred_honest": 3.4812,
+      "pred_misleading": 3.3209
+    },
+    {
+      "title": "Star Chef's Risotto",
+      "time_bin": "long",
+      "real_minutes": 95,
+      "log_real": 4.564348191467836,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 2.9172,
+      "pred_honest": 2.6406,
+      "pred_misleading": 2.4436
+    },
+    {
+      "title": "Instant-Pot Jamaican Curry Chicken",
+      "time_bin": "medium",
+      "real_minutes": 40,
+      "log_real": 3.713572066704308,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.0195,
+      "pred_honest": 2.7185,
+      "pred_misleading": 3.0901
+    },
+    {
+      "title": "Chocolate Caramel Cookie Bars",
+      "time_bin": "very_long",
+      "real_minutes": 255,
+      "log_real": 5.545177444479562,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 2.487,
+      "pred_honest": 2.6519,
+      "pred_misleading": 2.1352
+    },
+    {
+      "title": "Pineapple Chicken Tacos",
+      "time_bin": "quick",
+      "real_minutes": 16,
+      "log_real": 2.833213344056216,
+      "stated_misleading": 480,
+      "log_stated_misleading": 6.175867270105761,
+      "pred_bare": 3.1525,
+      "pred_honest": 2.6907,
+      "pred_misleading": 2.9667
+    },
+    {
+      "title": "Curry Chicken Burritos",
+      "time_bin": "very_long",
+      "real_minutes": 180,
+      "log_real": 5.198497031265826,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.5607,
+      "pred_honest": 3.0927,
+      "pred_misleading": 2.6518
+    },
+    {
+      "title": "Crepes with Mascarpone and Cherries",
+      "time_bin": "long",
+      "real_minutes": 85,
+      "log_real": 4.454347296253507,
+      "stated_misleading": 15,
+      "log_stated_misleading": 2.772588722239781,
+      "pred_bare": 2.9306,
+      "pred_honest": 2.5114,
+      "pred_misleading": 2.3817
+    },
+    {
+      "title": "Braised Collard Greens",
+      "time_bin": "very_long",
+      "real_minutes": 180,
+      "log_real": 5.198497031265826,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.5527,
+      "pred_honest": 3.2851,
+      "pred_misleading": 2.8633
+    },
+    {
+      "title": "Cheesy Italian Beef Quesadillas",
+      "time_bin": "medium",
+      "real_minutes": 20,
+      "log_real": 3.044522437723423,
+      "stated_misleading": 1440,
+      "log_stated_misleading": 7.273092595999522,
+      "pred_bare": 3.1375,
+      "pred_honest": 3.0837,
+      "pred_misleading": 3.3795
+    },
+    {
+      "title": "Lemon Vinaigrette",
+      "time_bin": "quick",
+      "real_minutes": 5,
+      "log_real": 1.791759469228055,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 3.3855,
+      "pred_honest": 2.888,
+      "pred_misleading": 3.1937
+    },
+    {
+      "title": "Popcornapalooza",
+      "time_bin": "quick",
+      "real_minutes": 15,
+      "log_real": 2.772588722239781,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 3.1677,
+      "pred_honest": 2.2669,
+      "pred_misleading": 2.6353
+    },
+    {
+      "title": "Pinwheels 3 Ways",
+      "time_bin": "long",
+      "real_minutes": 140,
+      "log_real": 4.948759890378168,
+      "stated_misleading": 5,
+      "log_stated_misleading": 1.791759469228055,
+      "pred_bare": 3.5934,
+      "pred_honest": 2.5852,
+      "pred_misleading": 2.0411
+    },
+    {
+      "title": "Boozy Peppermint-White Chocolate Iced Mocha",
+      "time_bin": "quick",
+      "real_minutes": 10,
+      "log_real": 2.3978952727983707,
+      "stated_misleading": 720,
+      "log_stated_misleading": 6.580639137284949,
+      "pred_bare": 2.7327,
+      "pred_honest": 2.6944,
+      "pred_misleading": 3.081
+    },
+    {
+      "title": "Easy Pantry Chicken",
+      "time_bin": "very_long",
+      "real_minutes": 190,
+      "log_real": 5.25227342804663,
+      "stated_misleading": 10,
+      "log_stated_misleading": 2.3978952727983707,
+      "pred_bare": 3.2181,
+      "pred_honest": 3.42,
+      "pred_misleading": 3.393
+    }
+  ]
+}
