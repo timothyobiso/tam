@@ -4,7 +4,7 @@
 
 Do LLMs develop internal representations of their position within an unfolding process, and can these be used as real-time oversight signals?
 
-**Yes.** Qwen3.5 models encode temporal horizon in a universal linear subspace of the residual stream that transfers across all tested domains (6/6 positive, mean cross-domain R²=0.65). The representation tracks realistic task complexity rather than stated timelines, updates token-by-token during generation, and can be steered to produce safer outputs.
+**Yes.** Qwen3.5 models encode temporal horizon in a universal linear subspace of the residual stream that transfers across all tested domains (6/6 positive, mean cross-domain R²=0.65). The representation tracks realistic task complexity rather than stated timelines, updates token-by-token during generation, and can be steered to shift the model's safe/harmful vocabulary distribution (effect on trained-classifier toxicity under analysis).
 
 ## Key Findings
 
@@ -12,7 +12,7 @@ Do LLMs develop internal representations of their position within an unfolding p
 |---------|--------|
 | Cross-domain transfer | 6/6 domains positive, mean R²=0.65 |
 | Deception detection | Probe tracks realistic time, not stated (r=0.80) |
-| Safety steering | Long-term steering → safer outputs (p=7×10⁻¹⁷) |
+| Safety steering (vocab) | Long-term steering shifts safe/harmful vocabulary logprob contrast (r=0.9999, p=7×10⁻¹⁷); RealToxicityPrompts classifier effect under analysis |
 | Nonlinear probe | R²=0.83 with MLP (vs 0.53 linear) |
 | Per-token dynamics | Internal clock updates during generation |
 | Causal localization | L29-31 account for 94-101% of temporal computation |
