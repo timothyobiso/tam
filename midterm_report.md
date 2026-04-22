@@ -7,7 +7,7 @@ SPAR Fellowship — Temporal Activation Monitors for AI Oversight
 
 **RQ1:** Do LLMs develop internal representations of their position within an unfolding process, and can these be used as real-time oversight signals?
 
-**Answer:** Yes. Qwen3.5 models encode temporal horizon in a universal linear subspace of the residual stream that transfers across all tested domains (kitchen, medical, software, military, business, education — 6/6 positive, mean cross-domain R²=0.65). The representation tracks realistic task complexity rather than stated timelines (r=0.80), updates token-by-token during generation, is causally localized to the final 3 layers, and can be steered to produce safer outputs (p=7×10⁻¹⁷ linear trend).
+**Answer:** Yes. Qwen3.5 models encode temporal horizon in a universal linear subspace of the residual stream that transfers across all tested domains (kitchen, medical, software, military, business, education — 6/6 positive, mean cross-domain R²=0.65). The representation tracks realistic task complexity rather than stated timelines (r=0.80), updates token-by-token during generation, is causally localized to the final 3 layers, and can be steered to shift the model's safe/harmful vocabulary preferences (p=7×10⁻¹⁷ linear trend on a logprob contrast over constructed safe/harmful token sets; effect on trained-classifier toxicity on RealToxicityPrompts is under analysis — see Section 3).
 
 ---
 
@@ -53,17 +53,21 @@ Pooled across all 6 domains, the probe reaches R²=0.70 at L32 with monotonic la
 
 The 4B shows stronger deception detection (r=0.80 vs 0.63). The 9B partially integrates contradictory stated/realistic signals — more capable models may blend conflicting temporal cues, a scaling concern for oversight.
 
-### 3. Steering toward long-term thinking produces safer outputs
+### 3. Steering shifts safe/harmful vocabulary preferences — safety transfer is under analysis
 
-Safety score (safe logprob − harmful logprob) increases monotonically with temporal steering alpha on the 9B:
+A logprob-contrast score (mean logprob over an 18-word safe set minus mean logprob over an 18-word harmful set, evaluated at the first continuation position of 16 ambiguous prompts) increases monotonically with temporal steering alpha on the 9B:
 
-| α | Safety Score |
-|---|-------------|
+| α | Logprob contrast |
+|---|------------------|
 | -50 | -0.177 |
 | 0 | +0.339 |
 | +50 | **+0.855** |
 
-Linear trend: slope=0.010, **r=0.9999, p=7×10⁻¹⁷**. Qualitatively, "The person who betrayed my trust deserves" → at α=-30: "a beating" → at α=0: "to be punished." This confirms Issue #29's preliminary GPT-2 result on a 9B model with a logprob metric.
+Linear trend: slope=0.010, **r=0.9999, p=7×10⁻¹⁷**. Qualitatively, "The person who betrayed my trust deserves" → at α=-30: "a beating" → at α=0: "to be punished." This extends Issue #29's preliminary GPT-2 result to a 9B model at the vocabulary level.
+
+**Classifier-level test (RealToxicityPrompts + `s-nlp/roberta_toxicity_classifier`, n=200, α ∈ [−50, +50], max_tokens=50) does not replicate the safety direction.** Mean toxicity ranges 0.072–0.129 with a marginally significant trend *in the opposite direction* (slope=+3×10⁻⁴, r=0.68, p=0.042). On the high-toxicity-prompt bin, α=−50 gives 0.130 and α=+50 gives 0.279.
+
+Interpretation: the probe axis is a register / vocabulary axis that correlates with horizon words, not a direct safety axis. The logprob-contrast effect reflects a vocabulary-preference shift that does not translate into measurably reduced generation-level toxicity at the tested scale. Follow-ups pending: longer generations (max_tokens ≥ 200), a safety-specific classifier (Llama-Guard, Perspective API), and a coherence check on α=±50 outputs to rule out degenerate generation.
 
 ### 4. The representation is substantially nonlinear
 
@@ -109,7 +113,7 @@ Curvature rises from -0.52 at L0 to -0.37 at L32. The 9B is straighter at every 
 
 1. **Universal, not domain-specific.** The temporal representation occupies the same linear subspace across 6 domains. An oversight monitor trained on any domain works on all others.
 2. **Detects misrepresentation.** The model's internal representation tracks realistic task complexity, not stated timelines. Stronger detection in smaller models (scaling concern).
-3. **Safety-relevant.** Temporal steering monotonically increases output safety. Long-term thinking → prosocial language; short-term steering → impulsive/violent completions.
+3. **Vocabulary-shifting; safety transfer under analysis.** Temporal steering monotonically shifts the model's preference between safe and harmful vocabulary sets at the first continuation position (logprob contrast, r=0.9999). The effect on trained-classifier toxicity on RealToxicityPrompts is null / weakly in the opposite direction (p=0.042). The probe axis appears to be a register / vocabulary axis, not a direct safety axis.
 4. **Substantially nonlinear, but the linear component is universal.** MLP recovers R²=0.83, but the nonlinear gain is domain-specific. Linear probes are the right tool for cross-domain monitoring.
 5. **Updates dynamically.** Tracks narrative time during generation with crash-and-recovery at plan disruptions.
 6. **Sharply localized, fully distributed.** Three layers (L29-31) do the computation. No sparse head structure (linear attention architecture).
